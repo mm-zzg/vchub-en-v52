@@ -87,7 +87,7 @@ Modern security standards recommend restricting TLS communication to strong ciph
 5. In the **SSL Cipher Suites** text box, replace the existing content with the following recommended cipher suite order:
 
 ```
-TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384,TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256,TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256
+TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384,TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256,TLS_AES_256_GCM_SHA384,TLS_AES_128_GCM_SHA256,TLS_CHACHA20_POLY1305_SHA256
 ```
 
 6. Click **OK** to save.
@@ -102,9 +102,8 @@ TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384,TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256,TLS_
 |---|---|---|
 | TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 | ECDHE | AES-256-GCM |
 | TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 | ECDHE | AES-128-GCM |
-| TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256 | ECDHE | CHACHA20-POLY1305 |
 
-**TLS 1.3** — cipher suites are negotiated automatically by the protocol implementation and include:
+**TLS 1.3** — Only the following cipher suites are permitted (TLS 1.3 is only supported on Windows 11 and Windows Server 2022 or later):
 
 - TLS_AES_256_GCM_SHA384
 - TLS_AES_128_GCM_SHA256
