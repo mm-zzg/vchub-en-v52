@@ -6,6 +6,20 @@ In VC Hub, when the model has animation attributes, the "Animation" column will 
 
 ![alt text](3d_Animation1.png)
 
+
+**Value** can be configured as either a static value or a binding.Through binding, the enabled state of the animation can change dynamically based on the value of a tag or expression, rather than being manually fixed to "enabled" or "disabled".
+
+Static value:
+
+![alt text](113.png)
+
+Binding:
+
+After binding is completed, the binding information can be viewed by clicking the icon.
+
+![alt text](114.png)
+
+
 ## **Animation type**
 
 VC Hub's 3D models support the following animation types:
@@ -19,8 +33,9 @@ The blink effect is easy to attract attention and is often used to alarm when ab
 Create a sphere model that represents an alarm light that flashes when the value of Temperature is greater than 40.
 
 
-![3d_Animation2](../assets/images/3d_Animation2.gif)
+![3d_Animation2](../../assets/images/3d_Animation2.gif)
 
+![alt text](3d_Animation2.png)
 ![alt text](3d_Animation3.png)
 
 
@@ -42,8 +57,6 @@ The model is displaced according to the path on the conveyor belt.
 ![alt text](3d_Animation5.png)
 
 
-
-
 | **Name**                             | **Value**                                                                                                                                                                  |
 |:--------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Enable                               | Enable                                                                                                                                                                     |
@@ -52,12 +65,12 @@ The model is displaced according to the path on the conveyor belt.
 | Reverse Play                         | Does the model move to the end of the path and then move back in the opposite direction?                                                                                   |
 | Face Forward                         | The model always faces the direction of motion.                                                                                                                            |
 | Path                                 | The path where the model needs to be displaced                                                                                                                             |
-| Bool value                           | Tag: Default:roll   <br> **Note:** This animation only takes effect when the value is a Bool value.  |
+| Bool value                           | True|
 | The world position of current object | Show the world position of current object                     |
 
 #### **Rotation**
 
-The model rotates as the value changes.
+Use a static value to simulate the rotation of the fan blade.
 
 ![3d_Animation6](../../assets/images/3d_Animation6.gif)
 
@@ -67,13 +80,13 @@ The model rotates as the value changes.
 | **Name**          | **Value**   |
 |:------------------|:-------------|
 | Enabled           | Enable  |
-| value             | Tag: Default:Express |
+| value             | True |
 | Type              | The result type of the value. Divided into Number type and Bool type.  <br>Number type:  <br>![alt text](3d_Animation8.png)  <br>Bool type:  <br>![alt text](3d_Animation9.png)|
 | Min Value         | When the type is number, this parameter is displayed. Used in combination with the "angle" . Set the min value at which the animation takes effect, and the rotation angle of the model at the min value.  <br>![alt text](3d_Animation10.png)|
 | Max Value         | When the type is number, this parameter is displayed. Used in combination with the "angle" . Set the max value at which the animation takes effect, and the rotation angle of the model at the max value. <br>![alt text](3d_Animation11.png)|
-| X Axis Offset(px) | Used to set the offset distance of the rotation center point to the X-axis.   |
-| Y Axis Offset(px) | Used to set the offset distance of the rotation center point to the Y axis.   |
-| Z Axis Offset(px) | Used to set the offset distance of the rotation center point to the Z axis.  |
+| X Axis Offset | The offset of the rotation center along the X-axis relative to its parent.   |
+| Y Axis Offset | The offset of the rotation center along the Y-axis relative to its parent.   |
+| Z Axis Offset | The offset of the rotation center along the Z-axis relative to its parent.  |
 | Direction         | When the type is Bool, this parameter is displayed. Indicates the direction of rotation. |
 | Rotation Angle    | When the type is Bool, this parameter is displayed. Indicates how many degrees to rotate.  |
 | Executions        | When the type is Bool, this parameter is displayed. Indicates how many times it needs to be rotated.  |
@@ -92,12 +105,12 @@ The cube determines whether to scale based on a Bool value.
 
 ![3d_Animation12](3d_Animation12.png)
 
-
+![alt text](3d_Animation13.png)
 
 | **Name**     | **Value**                                                                                                                                                                 |
 |:--------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Enabled      | Enable                                                                                                                                                                    |
-| Bool value   | Tag: Default:roll  <br>**Note:** This animation only takes effect when the value is a Bool value. | 
+| Bool value   | Tag: Default:Roll  <br>**Note:** This animation only takes effect when the value is a Bool value. | 
 | Percentage   | The size of the deformation of the model.                                                                                                                                 |
 | Direction    | In which direction the model should deform.                                                                                                                               |
 | Executions   | The number of times it needs to be executed when the value is true.                                                                                                       |

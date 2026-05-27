@@ -39,13 +39,14 @@ The system divides the quality bits of each level into different code areas as f
 | Bad_OutofRange                     | 320               | The value of the current tag is outside the engineering upper and lower limits. | If a tag is configured with an engineering upper or lower limit, the tag value is out of range of the upper or lower limit.  |
 | Bad_NotLicensed                     | 326               | There is no active I/O tag license. |  The I/O tag license has expired.|
 | Bad_MQTTNotLicensed                     | 327               | There is no active MQTT license. This license is used by MQTT Native, MQTT Sparkplug B, and WAGO Protocol devices.|  The MQTT license has expired.|
+| Bad_IEC104NotLicensed                     | 328               | There is no active IEC 104 license. This license is used by IEC 104 devices.|  The IEC 104 license has expired.|
 | **Error**                          | **Code(400~499)** | **Description**  | **Example**   |
 | Error                              | 400               | A generic code that indicates an error in the current tag.   | If the error cannot be indicated by other Error codes, the current code is used.   |
 | Error_Configuration                | 401               | There is an error in the configuration of the current tag.    | The device to which the tag is bound does not exist.   |
 | Error_Expression                   | 402               | The expression that generated the value of this tag was executed incorrectly. | Any error occurred during the expression parsing execution of the expression tag.   |
 | Error_TypeConversion               | 405               | The received value could not be forcibly converted to the data type set by the tag.   | Expression data type conversion failed;  The type of the received value does not match the type of the tag and  forced conversion failed.                            |
 | Error_Exception                    | 410               | An exception caught during the acquisition of a value by the tag    | Any error that occurred during driver acquisition.   |
-| Error_InvalidPath                  | 411               | The path or path syntax of the tag is incorrect.   | The path of a tag on which the expression depends is not legal (does not satisfy the naming rules).                                                                  |
+| Error_InvalidPath                  | 411               | The path or path syntax of the tag is incorrect.   | The path of a tag on which the expression depends is not legal (does not satisfy the naming rules).   |
 
 ## **The control displays a corner marker**
 

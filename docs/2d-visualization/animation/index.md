@@ -4,9 +4,19 @@ By applying animation effects sensibly, users can enjoy a more efficient, intuit
 
 In VC Hub, when the control has animation properties, the "Animation" column will be displayed in the property bar on the right. Click the setting button to set the animation.
 
-In addition to "Value" supporting binding, the "Enable" state also supports binding. Through binding, the enabled state of the animation can dynamically change along with the value of a certain tag or expression. It is no longer manually fixed as "on/off", but rather determined dynamically by the bound value whether the animation is enabled or not.
-
 ![alt text](80.png)
+
+**Value** can be configured as either a static value or a binding. Similarly, the **Enable** state also supports binding. Through binding, the enabled state of the animation can change dynamically based on the value of a tag or expression, rather than being manually fixed to "enabled" or "disabled".
+
+Static value:
+
+![alt text](113.png)
+
+Binding:
+
+After binding is completed, the binding information can be viewed by clicking the icon.
+
+![alt text](114.png)
 
 ## Animation Types
 
@@ -21,8 +31,9 @@ The blinking effect is easy to attract attention and is often used to alarm when
 Create a circular control that represents an alarm indicator light that blinks when the value of "temperature" is greater than 40.
 
 ![animation](../../assets/images/animation.gif)
-
 ![alt text](81.png)
+![alt text](109.png)
+
 
 | **Properties** | **Value**    |
 |----------------|-----------|
@@ -30,7 +41,7 @@ Create a circular control that represents an alarm indicator light that blinks w
 | Border Color   | ff0000    |
 | Enabled Blink  | Enable   |
 | Interval       | 500 ms    |
-| Value          | Expression: tag(`'@Default:Temper'`)>40;   <br>**Note:** This animation only takes effect when the value is a Bool value. |
+| Value          | Expression: tag(`'@Demo:temperature'`)>40;   <br>**Note:** This animation only takes effect when the value is a Bool value.|
 
 #### Translocation
 
@@ -41,8 +52,8 @@ Create dynamic effects by changing the position of the control, which can be mov
 See where objects are traveling on the conveyor belt.
 
 ![animation1](../../assets/images/animation1.gif)
-
 ![alt text](82.png)
+![alt text](110.png)
 
 | **Properties**    | **Value**     |
 |-------------------|------------------|
@@ -56,7 +67,7 @@ See where objects are traveling on the conveyor belt.
 
 #### Rotation
 
-The object rotates as the value changes.
+Use a static value to simulate the rotation of the fan blade.
 
 **Example**
 
@@ -67,7 +78,7 @@ The object rotates as the value changes.
 | **Properties**  | **Value**   |
 |-----------------|---------------|
 | Enable          | Enable  |
-| Value           | Tags: Default.roll  |
+| Value           | True  |
 | Type            | The result type of the value. Divided into number and bool.  <br>Number：  <br>![alt text](87.png) <br>Bool:  <br>![alt text](88.png)|
 | Min             | When the type is number, this parameter is displayed. Used in combination with the "Angle" . Set the minimum value at which the animation takes effect, and the rotation angle of the object at the minimum value.  <br>![alt text](89.png) |
 | Max             | When the type is number, this parameter is displayed. Used in combination with the "Angle" . Set the minimum value at which the animation takes effect, and the rotation angle of the object at the minimum value. <br>![alt text](90.png) |
@@ -88,11 +99,12 @@ The liquid level in the tank is constantly changing. Represent the jar as a rect
 ![animation3](../../assets/images/animation3.gif)
 
 ![alt text](91.png)
+![alt text](111.png)
 
 | **Properties** | **Value**    |
 |----------------|----------|
 | Enable         | Enable   |
-| Value          | Tags: Equipment1. Liquid_Level  |
+| Value          | Tags: Demo.Liquid_Level  |
 | Direction      | The direction of the fill.  <br>![alt text](94.png) Fill from top to bottom. <br>![alt text](95.png) Fill from bottom to top. <br>![alt text](96.png) Fill from left to right. <br>![alt text](97.png) Fill from right to left. | 
 | Fill           | The fill color.  |
 | Min            | Used in combination with the "fill(%)" . Set the minimum value at which the animation takes effect, and the filling ratio of the object at the minimum value.  <br>![alt text](98.png) |
@@ -111,11 +123,12 @@ The mercury column of a thermometer changes as the value changes.
 ![animation4](../../assets/images/animation4.gif)
 
 ![alt text](100.png)
+![alt text](112.png)
 
 | **Properties**  | **Value**   |
 |-----------------|----------|
 | Vertical Enable | Enable   |
-| Value           | Tags: Device 1. Temperature |
+| Value           | Tags: Demo.Temperature |
 | Reference Point | The direction of the scale. <br>![alt text](101.png) Used for horizontal scaling, indicating scaling left and right with the object's left side as the reference point.  <br>![alt text](102.png) Used for horizontal scaling, indicating scaling left and right with the object's center as the reference point.     <br>![alt text](103.png) Used for horizontal scaling, indicating scaling left and right with the object's right side as the reference point.<br>![alt text](104.png) Used for vertical scaling, indicating scaling up and down with the object's top side as the reference point.     <br>![alt text](105.png) Used for vertical scaling, indicating scaling up and down with the object's center as the reference point.   <br>![alt text](106.png) Used for vertical scaling, indicating scaling up and down with the object's bottom side as the reference point.     | 
 | Min             | Used in combination with the "Scale(%)" . Set the minimum value at which the animation takes effect, and the scaling ratio of the object at the minimum value.  <br>![alt text](107.png)  |
 | Max             | Used in combination with the "Scale(%)" . Set the minimum value at which the animation takes effect, and the scaling ratio of the object at the minimum value. <br>![alt text](108.png) |
