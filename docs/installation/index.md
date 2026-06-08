@@ -51,6 +51,35 @@ Edit the `appsettings.json` file in the VC Hub application installation director
 
 After updating `ForwardedHeaders`, restart the VC Hub service for the change to take effect.
 
+Example configurations:
+
+Direct access (no load balancer or reverse proxy):
+
+```json
+"ForwardedHeaders": {
+	"ForwardedHeaders": "None",
+	"KnownProxies": [],
+	"KnownIPNetworks": []
+}
+```
+
+Behind a trusted load balancer or reverse proxy:
+
+```json
+"ForwardedHeaders": {
+	"ForwardedHeaders": "XForwardedFor, XForwardedProto",
+	"KnownProxies": [
+		"10.0.0.10"
+	],
+	"KnownIPNetworks": [
+		"10.0.1.0/24"
+	]
+}
+```
+
+- For direct access, keep `ForwardedHeaders` as `None`.
+- For deployments behind a trusted load balancer or reverse proxy, enable forwarded headers and configure `KnownProxies` and/or `KnownIPNetworks` to include only trusted upstream addresses.
+
 The configuration of forwarded headers depends on the deployment environment and reverse proxy setup.
 For detailed guidance on how to configure trusted proxies, load balancers, and forwarded headers correctly, please refer to the official ASP.NET Core documentation.
 
