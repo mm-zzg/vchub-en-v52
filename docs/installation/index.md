@@ -43,6 +43,19 @@ When VC Hub is deployed behind a load balancer or reverse proxy, configure wheth
 
 Using the wrong setting can cause incorrect client IP detection.
 
+### **Where to Configure (Package Installation)**
+
+This option is configured in `appsettings.json` under the `ForwardedHeaders` section.
+
+Edit the `appsettings.json` file in the VC Hub application installation directory.
+
+After updating `ForwardedHeaders`, restart the VC Hub service for the change to take effect.
+
+The configuration of forwarded headers depends on the deployment environment and reverse proxy setup.
+For detailed guidance on how to configure trusted proxies, load balancers, and forwarded headers correctly, please refer to the official ASP.NET Core documentation.
+
+https://learn.microsoft.com/aspnet/core/host-and-deploy/proxy-load-balancer
+
 ### **Client IP Identification for Rate Limiting**
 
 Rate limiting relies on the resolved client IP address.
