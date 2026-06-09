@@ -16,7 +16,7 @@ This means when the data source changes, the control's style or value updates au
 | Dropdown       | Selected Text/Selected Value |
 | Datetime Input | Date                         |
 
-## Tag Bindings with Read/Write Mode
+## Tag Bindings with Read/Write Mode 
 
 In the property binding window, after selecting a tag, you can enable the **"Read/Write Mode"** option. When enabled, a fallback option can be set — if the write operation fails, the value will revert to the last valid value.
 
