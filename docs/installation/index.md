@@ -32,6 +32,79 @@ The installation program defaults to using port 8066 for HTTP and port 10443 for
 
 ![alt text](3.png)
 
+## **Reverse Proxy, Client IP, and Rate Limiting**
+
+When VC Hub is deployed behind a load balancer or reverse proxy, configure whether the system should trust forwarded client IP headers (for example, `X-Forwarded-For`). This setting directly affects how client IP addresses are identified by security features such as rate limiting.
+
+### **Trust Forwarded Headers Setting**
+
+- **Enable this option** only when VC Hub is behind a trusted load balancer or reverse proxy that correctly sets and sanitizes forwarded headers.
+- **Keep this option disabled** when clients connect directly to VC Hub, or when the upstream proxy is untrusted or not controlled.
+
+Using the wrong setting can cause incorrect client IP detection.
+
+### **Where to Configure (Package Installation)**
+
+This option is configured in `appsettings.json` under the `ForwardedHeaders` section.
+
+Edit the `appsettings.json` file in the VC Hub application installation directory.
+
+After updating `ForwardedHeaders`, restart the VC Hub service for the change to take effect.
+
+Example configurations:
+
+Direct access (no load balancer or reverse proxy):
+
+```json
+"ForwardedHeaders": {
+	"ForwardedHeaders": "None",
+	"KnownProxies": [],
+	"KnownIPNetworks": []
+}
+```
+
+Behind a trusted load balancer or reverse proxy:
+
+```json
+"ForwardedHeaders": {
+	"ForwardedHeaders": "XForwardedFor, XForwardedProto",
+	"KnownProxies": [
+		"10.0.0.10"
+	],
+	"KnownIPNetworks": [
+		"10.0.1.0/24"
+	]
+}
+```
+
+- For direct access, keep `ForwardedHeaders` as `None`.
+- For deployments behind a trusted load balancer or reverse proxy, enable forwarded headers and configure `KnownProxies` and/or `KnownIPNetworks` to include only trusted upstream addresses.
+
+The configuration of forwarded headers depends on the deployment environment and reverse proxy setup.
+For detailed guidance on how to configure trusted proxies, load balancers, and forwarded headers correctly, please refer to the official ASP.NET Core documentation.
+
+https://learn.microsoft.com/aspnet/core/host-and-deploy/proxy-load-balancer
+
+### **Client IP Identification for Rate Limiting**
+
+Rate limiting relies on the resolved client IP address.
+
+- With **trust forwarded headers disabled**, VC Hub uses the direct peer address of the incoming connection as the client IP.
+- With **trust forwarded headers enabled**, VC Hub uses forwarded header information (such as `X-Forwarded-For`) to determine the original client IP, and still handles client IP resolution correctly when traffic passes through a load balancer or reverse proxy.
+
+This ensures rate-limiting decisions are applied to the real client as accurately as possible in both direct-access and proxied deployments.
+
+### **Firewall Recommendation (DoS / Flooding Protection)**
+
+For production deployment, it is recommended to place a firewall in front of VC Hub to mitigate message flooding and high-frequency information request attacks (including DoS-style traffic patterns).
+
+Application-level rate limiting and network-level protection should be used together:
+
+- **Firewall / network controls** provide coarse-grained traffic filtering, IP blocking, and perimeter protection.
+- **VC Hub rate limiting** provides application-aware request throttling and per-client control.
+
+Rate limiting is a complementary control, not a replacement for firewall protection.
+
 
 ## **Version**
 
