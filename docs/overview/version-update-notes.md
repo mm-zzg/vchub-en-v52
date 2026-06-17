@@ -58,7 +58,7 @@
 - **Editable System Tags**：System tags can be edited and configured for alarms, historical storage, and other settings.
 - **OPC UA**：Add discovery service function.
 - **Camera**: Configure WebRTC Streamer to set up the camera, enabling camera streaming while keeping it separate from the VC Hub server.
-- **WeCom and DingTalk support to receive alarm notification**: Support to send alarm notification to WeCom group, WeCom account, DingTalk group , DingTalk account.
+- **WeCom and DingTalk support to receive alarm notification**: Support to send alarm notification to WeCom group, WeCom account, DingTalk group, DingTalk account.
 
 #### 4.1.X
 
