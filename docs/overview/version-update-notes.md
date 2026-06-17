@@ -43,8 +43,8 @@
 - **Toggle Button**: Switches between ON and OFF states when clicked. Commonly used to control Boolean-type devices, such as start/stop or on/off switches.
 - **2-State Button**: Represents two distinct states, typically ON/OFF or Start/Stop. Each state can be configured with specific appearance styles.
 - **Multi-State Button**: Contains multiple states and can switch between them. Each state can be configured with its own appearance style.
-- **Historical Data Storage of Raw Values**: When storing historical data for variables, it is possible to store the original raw values of the variables.
-- **Screen Functions and Expression Functions**: By defining screen functions or expression functions, common logic can be centralized and reused. This avoids writing the same logic repeatedly in each component, allowing one modification to take effect globally, reducing maintenance costs.
+- **Historical Data Storage of Raw Values**: When storing historical data for variables, it is possible to store the original raw values of the tags.
+- **Page Functions and Expression Functions**: By defining page functions or expression functions, common logic can be centralized and reused. This avoids writing the same logic repeatedly in each component, allowing one modification to take effect globally, reducing maintenance costs.
 - **Binding Support for Enabling/Disabling Animations**: When configuring animations for components, the enabling and disabling of animations can be controlled through property bindings.
 
 #### 4.2.X
