@@ -1,53 +1,216 @@
 # License
 
-VC Hub uses licenses to activate features on the VC Hub server. At the moment, only **online activation** is supported.
+VC Hub uses licenses to enable product features. Currently, only **online activation** is supported.
 
-For detailed license types, please refer to [Product License](../../installation/product-license.md).
+## License Types
+
+VC Hub provides two licensing methods:
+
+- Subscription License (Annual Subscription)
+- Perpetual License (One-time Purchase)
+
+Only one licensing method can be selected for a product.
+
+After installation, VC Hub automatically enters **Trial Mode**, where all features are available for 30 days.
 
 ## Trial Mode
 
-After installing VC Hub, the system automatically enters a **30-day trial period**. During the trial period, all features are fully available.
+### Trial Period
 
-When the trial period expires:
+After installation, VC Hub starts a **30-day free trial** automatically.
 
-- The **Admin Console** and **Designer** pages will remain accessible.
-- **Driver data acquisition will stop**.
-- The **Preview** and **Runtime** pages will display a message indicating that the trial has expired.
+During the trial period:
 
-After the trial expires, you may:
-
--  **Enter a trial license again** to start another 30-day trial, or
--  **Purchase the appropriate feature licenses** to restore full functionality.
-
-### Trial Countdown
-
-The 30-day trial countdown starts **immediately after the installation** of VC Hub.
+- All product features are available.
+- No activation is required.
+- A trial countdown is displayed in the Admin Console and Designer.
 
 ![alt text](36.png)
 
+### Trial Expiration
 
-### Trial Expired
+When the trial expires:
 
-After the trial period expires, the preview and the running page will be forced to jump to the "Trial Expired" interface.
+- Admin Console remains accessible.
+- Designer remains accessible.
+- Driver data acquisition stops.
+- Preview and Runtime pages display a **Trial Expired** message.
 
 ![alt text](37.png)
 
 
-### Trial Extension
+### Extending the Trial
 
-After the trial expires, you can enter another trial license (please contact Sales to obtain one) to extend the trial period for an additional 30 days.
+After the trial expires, you may:
 
-You can also enter a new trial license **before** the current trial ends. Regardless of how many days remain, once a new trial license is applied, the trial countdown will automatically reset to 30 days.
+- Apply another trial license (contact Sales).
+- Purchase formal licenses.
 
-## Operating License
+A new trial license always resets the remaining trial period to **30 days**, regardless of the previous remaining days.
 
-For a detailed introduction of "license" type, please refer to [License](../installation/product-license.md).
+## Product Licenses
+
+Product licenses are divided into three categories:
+
+- I/O Tag License
+- Concurrent Online User License
+- Add-on License
+
+### I/O Tag License
+
+There are 7 different license quantities available. You can determine the number of licenses to purchase based on your specific situation.
+
+- 1,000 I/O tags
+- 2,000 I/O tags
+- 5,000 I/O tags
+- 10,000 I/O tags
+- 20,000 I/O tags
+- 50,000 I/O tags
+- 100,000 I/O tags
+
+**Notes:**
+
+1. License quantities **cannot be accumulated**.
+2. Select a license whose capacity is **greater than or equal to** the required number of tags.
+
+   **Example:** If your project requires **3,000 tags**, you must purchase the **5,000-tag** license.
+
+**Behavior Without License**
+
+If no I/O Tag license is activated:
+
+- All I/O tags have quality Bad_NotLicensed.
+- Driver data acquisition stops.
+- Runtime data publishing stops.
+
+If the configured tag count exceeds the licensed capacity:
+
+- Tags beyond the licensed limit are assigned Bad_NotLicensed according to the system tag sorting rule.
+- These tags are neither collected nor published.
+
+### Concurrent Online User
+
+Concurrent user licenses control the maximum number of simultaneously logged-in users.
+
+Engineering users and Runtime users are counted independently.
+
+The concurrent user count including 5 different types. 
+
+- 2 Engineering Concurrent Online Users, 20 Runtime Concurrent Online Users
+- 5 Engineering Concurrent Online Users, 50 Runtime Concurrent Online Users
+- 10 Engineering Concurrent Online Users, 100 Runtime Concurrent Online Users
+- 20 Engineering Concurrent Online Users, 200 Runtime Concurrent Online Users
+- 50 Engineering Concurrent Online Users, 500 Runtime Concurrent Online Users
+
+#### Default Capacity
+
+Without a concurrent user license:
+
+- 1 Engineering User
+- 10 Runtime Users
+
+are allowed simultaneously.
+
+Automatic login also counts as one Runtime user.
+
+#### User Types
+
+After login:
+
+- Engineering Users enter the Admin Console.
+- Runtime Users enter the configured Runtime page.
+
+#### When the User Limit Is Reached
+
+**Users with Security Permission**
+
+1. Enter the online user management page, and it will display the currently online users.
+![](2026-07-02-11-18-57.png)
+     - Click the "**Exit**" button to navigate to the login page. You can use another account or your current account to log in again. 
+     - Click the "**Refresh**" button to refresh the current user list and retrieve the latest list of online engineering users.
+     - In the list, click the "**Force Logout**" button for a user to force them offline. After at least one user has been logged out, the "**Continue to the System**" button becomes enabled. Click it to enter the Admin Console page.
+
+**Users without Security Permission**
+
+If different user accounts are already online:
+
+![](2026-07-02-11-21-11.png)
+
+- Login is denied.
+- Click the "Back" button to navigate to the login page. You can use another account or your current account to log in again.
+
+If all logged-in sessions belong to the same username:
+
+![](2026-07-02-11-22-00.png)
+
+- The user can view only their own sessions.
+- It is possible to remove the account that has already been logged in elsewhere.
+
+#### Forced Logout
+
+When a user is forced offline, they are redirected to the login page.
+
+![](2026-07-02-11-22-12.png)
+
+### Add-on Licenses
+
+The following features require separate Add-on licenses:
+
+**Database**
+
+- MySQL
+- SQL Server
+- PostgreSQL
+- InfluxDB
+
+**Reporting**
+
+- Report
+
+**Alarm Notification**
+
+- SMS (Twilio)
+- SMS (Ali Cloud)
+- WeCom
+- DingTalk
+
+**Open API**
+
+**Device**
+
+- MQTT Native
+- MQTT Sparkplug B
+- WAGO Protocol
+- IEC 104
+
+**3D Visualization**
+
+**Notes:**
+
+1. Each Add-on is licensed independently.
+
+2. If an Add-on is not licensed:
+
+     - Admin Console and Designer remain fully functional.
+     - Configuration (Create, Update, Delete, Query) is allowed.
+     - Preview and Runtime cannot use the feature.
+     - A Module Not Licensed message is displayed. For example:
+
+     ![](2026-07-02-11-22-45.png)
+
+     ![](2026-07-02-11-22-50.png)
+
+## License Management
+
+Click **Node** -> **License** to manage licenses.
+
+![](2026-07-02-11-23-09.png)
 
 ### Activate
 
 **Activation Steps:**
 
-1. Click the menu "Node"->"License", and click on the "Activate License" button at the top right corner of the list.
+1. Click on the "Activate License" button at the top right corner of the list.
 ![alt text](38.png)
 2. Fill in the key and click the "Activate" button.You can input one or more keys at a time.
 ![alt text](39.png)
@@ -111,7 +274,7 @@ However, please note that if you attempt to update using an invalid license (for
 
 Therefore, please perform this operation with caution.
 
-## License Expired
+## License Expiration
 
 When the license expires:
 
@@ -148,10 +311,8 @@ When the number of users has not reached the limit:
 
 - Runtime users will be directed to the runtime view after login.
 
-When the user limit is reached, refer to the Concurrent Online User section in [License](../installation/product-license.md) for details.
 
-
-#### Configuring Accessible Runtime Views for Runtime Users
+### Configuring Accessible Runtime Views for Runtime Users
 
 Runtime users **must have a role** in order to access runtime views.
 
@@ -187,11 +348,6 @@ The configuration steps are as follows:
 7. In the project list, click the Design button for ProjectA. In the editor, right-click the page "Home", set its Permission, and select "test" in the Access Level tree.
 
 8. Log in as Jane. After accessing VC Hub, the Home page will be displayed automatically.
-
-
-
-
-
 
 
 
