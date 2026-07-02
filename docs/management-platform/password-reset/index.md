@@ -35,8 +35,8 @@ To configure the email service:
 |Password	|SMTP account password.|
 |SMTP Timeout	|Connection timeout in milliseconds.|
 
-4. Click Connection Test to verify the SMTP configuration.
-5. Click OK to save the configuration.
+4.Click Connection Test to verify the SMTP configuration.
+5.Click OK to save the configuration.
 
 **Note:**
 
