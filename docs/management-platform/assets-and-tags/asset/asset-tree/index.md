@@ -13,10 +13,10 @@ Icon description of the node type：
 | ![alt text](3.png)| Model           |
 | ![alt text](4.png)| Instance        |
 | ![alt text](5.png)| Set             |
-| ![alt text](6.png) | I/O Tag         |
+| ![alt text](6.png)| I/O Tag         |
 | ![alt text](7.png)| Memory Tag      |
-| ![alt text](8.png) | Expression Tag  |
-| ![alt text](9.png) | Attribute       |
+| ![alt text](8.png)| Expression Tag  |
+| ![alt text](9.png)| Attribute       |
 
 ## **Toolbar** 
 
