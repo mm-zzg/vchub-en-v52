@@ -124,7 +124,8 @@ After login:
 
 **Users with Security Permission**
 
-1. Enter the online user management page, and it will display the currently online users.
+Enter the online user management page, and it will display the currently online users.
+
 ![](2026-07-02-11-18-57.png)
      - Click the "**Exit**" button to navigate to the login page. You can use another account or your current account to log in again. 
      - Click the "**Refresh**" button to refresh the current user list and retrieve the latest list of online engineering users.
