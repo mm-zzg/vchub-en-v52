@@ -116,7 +116,7 @@ To further enhance system security, it is recommended to perform the following s
 
 1. Go to the parent directory of the installation directory.
 2. Grant the file owner the permission to execute the file "`wagovisualizationandcontrolhub-uninstall.sh`"
-   ![alt text](27.png)
+   ![alt text](27.png) 
 3. Run the script "`wagovisualizationandcontrolhub-uninstall.sh`".
    ![alt text](28.png)
 4. After these operations, all program-related files will be removed, and the process supervisory service will also be removed.
