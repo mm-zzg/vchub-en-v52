@@ -78,18 +78,19 @@ After copying, click the "..." in the symbol library to paste the symbol.
 
 ## Instance Symbol
 
-Once the symbol is created, you can drag the symbol onto the screen or screen template to create multiple instances of the symbol. After the instances are created, you can manipulate their properties just like any other control.
+Once the symbol is created, you can drag the symbol onto the page or page template to create multiple instances of the symbol. After the instances are created, you can manipulate their properties just like any other control.
 
 ![alt text](21.png)
 
 **Properties of the Symbol Instance**
 
-| **Name**        | **Description**                                                                                                                  |
-|-----------------|----------------------------------------------------------------------------------------------------------------------------------|
-| Name            | Name of this symbol instance.                                                                                                    |
-| X               | The distance from the left side of the canvas to the left side of the symbol instance.                                           |
-| Y               | The distance from the top of the canvas to the top of the symbol instance.                                                       |
-| W               | The width of the symbol instance.                                                                                                |
-| H               | The height of the symbol instance.                                                                                               |
-| Path            | The complete path of the symbol instance.                                                                                        |
+| **Name**        |**Description**           |
+|-----------------|--------------------------|
+| Name            | Name of this symbol instance. |
+| X               | The distance from the left side of the canvas to the left side of the symbol instance. |
+| Y               | The distance from the top of the canvas to the top of the symbol instance.   |
+| W               | The width of the symbol instance. |
+| H               | The height of the symbol instance. |
+| Path            | The complete path of the symbol instance.          |
 | Custom Property | These are consistent with the custom properties set for the symbol. You can click the bind button to configure the property binding. |
+

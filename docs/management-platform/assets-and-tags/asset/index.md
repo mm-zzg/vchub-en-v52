@@ -69,9 +69,21 @@ There are two types of assets to choose from : local assets, and remote assets.
 
  Users can modify the asset information by clicking the "Modify" button on the right side of any asset in the asset list. Once an asset is created, its asset type cannot be modified.
 
+#### **Manage Tags**
+
+This function is used to manage all tags under the Asset.
+
+Clicking the button will open a new browser window displaying the Asset Tree. The Asset Tree  provides the same functionality as the Asset window in the 2D Designer.
+
+![alt text](5.png)
+
 #### **Delete**
 
  Users can click the "Delete" button on the right side of any asset in the asset list to delete the selected asset. After clicking the button, a prompt box will pop up, and users can click OK to delete the asset. Note that when the asset is deleted, all models, instances and tags under the asset will be deleted together.
+
+ The **System** Asset cannot be deleted.
+
+ ![alt text](4.png)
 
 #### **Export**
 

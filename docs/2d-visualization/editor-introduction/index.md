@@ -34,8 +34,8 @@ There is a toolbar at the top of the editor. When the mouse is placed over any b
 | ![alt text](42.png) | Move the selected object up one layer | ![alt text](43.png)| Zoom in page  |
 | ![alt text](44.png) | Move the selected object down one layer |![alt text](45.png) | Adjust the display ratio of the page to 100%  |
 | ![alt text](46.png)| Move the selected object to the top layer | ![alt text](47.png)| Open the project management window  |
-|![alt text](48.png)| Move the selected object to the bottom layer  | ![alt text](49.png)|
-| ![alt text](50.png) | Adjust the width of multiple selected objects to be the same as that of the reference object  Reference object selection rules:  <br>1. **Ctrl + click selection**: The last selected object is used as the reference. <br>2. **Mouse marquee selection**: The topmost object in the layer order is used as the reference  | ||
+|![alt text](48.png)| Move the selected object to the bottom layer  | ![alt text](67.png)|Used for viewing shortcut keys|
+| ![alt text](50.png) | Adjust the width of multiple selected objects to be the same as that of the reference object  Reference object selection rules:  <br>1. **Ctrl + click selection**: The last selected object is used as the reference. <br>2. **Mouse marquee selection**: The topmost object in the layer order is used as the reference  |![alt text](49.png) |Click to open the preview in a new browser window.|
 | ![alt text](51.png) | Adjust the height of multiple selected objects to be the same as that of the reference object  Reference object selection rules:  <br>1. **Ctrl + click selection**: The last selected object is used as the reference. <br>2. **Mouse marquee selection**: The topmost object in the layer order is used as the reference | | |
 
 
@@ -60,17 +60,24 @@ Form 2:
 
 ![alt text](54.png)
 
-| **Window** | **Description**                                                                                                                                                                                              |
-|------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Tools      | Used to display all controls for easy use and viewing.                                                                                                                                                       |
-| Libraries  | Used to display and manage image materials.                                                                                                                                                                  |
-| Symbols    | Used to display and manage symbols.                                                                                                                                                                          |
-| Project    | Used to display project information, including the project's pages, templates, and reports.                                                                                                                  |
+
+| **Window** | **Description**   |
+|------------|--------------------------------------|
+| Tools      | Used to display all controls for easy use and viewing.   |
+| Libraries  | Used to display and manage image materials.  |
+| Symbols    | Used to display and manage symbols.  |
+| Project    | Used to display project information, including the project's pages, templates, and reports.   |
 | Objects    | Displays all controls on the currently opened page in a list, and displays the status of each control (locked, hidden, animated, action set), and allows the user to quickly perform an action on a control. |
-| Asset      | Displays asset and tag information.                                                                                                                                                                          |
-| Properties | Displays the properties of the page or the selected control.                                                                                                                                                 |
-| 3D Scenes  | Displays the 3D scene and allows you to create a 3D scene.                                                                                                                                                   |
-| Reset      | Click to restore all windows to their default settings.                                                                                                                                                      |
+| Asset      | Displays asset and tag information.        |
+| Properties | Displays the properties of the page or the selected control.   |
+| 3D Scenes  | Displays the 3D scene and allows you to create a 3D scene.     |
+| Reset      | Click to restore all windows to their default settings.      |
+
+**Notes:**
+
+The window can also be dragged out and operated as a standalone window.
+
+![alt text](68.png)
 
 ## **Page Menu**
 
@@ -80,16 +87,16 @@ You can use this menu to create, save, and close the page.
 
 | **Function**  |**Description** |
 |---------------|-------------|
-| New Page      | Allows you to create a new page.                                          |
-| New Popup     | Allows you to create a new popup page.                                    |
-| New Template  | Allows you to create a new template.                                      |
+| New Page      | Allows you to create a new page.  |
+| New Popup     | Allows you to create a new popup page.   |
+| New Template  | Allows you to create a new template.   |
 | Open Page     | Allows you to open a previously created page, including pages and popups. |
-| Open Template | Allows you to open a previously created template.                         |
-| Save          | Saves the currently displayed page.                                       |
-| Save As       | Saves the currently displayed page as a new page.                         |
-| Save All      | Saves all open pages.                                                     |
-| Close         | Closes the currently displayed page.                                      |
-| Close All     | Closes all open pages.                                                    |
+| Open Template | Allows you to open a previously created template.  |
+| Save          | Saves the currently displayed page.   |
+| Save As       | Saves the currently displayed page as a new page.  |
+| Save All      | Saves all open pages.   |
+| Close         | Closes the currently displayed page.  |
+| Close All     | Closes all open pages.   |
 
 ## **Canvas**
 
@@ -110,6 +117,16 @@ Often it is useful to test a drawn page to make sure certain bindings or scripts
 Click on the "Preview" button to enter preview mode，and display preview content in a new browser tab.
 
 ![alt text](60.png)
+
+## **"Full Screen" and "Exit Full Screen" Menu**
+
+Click to display in full screen.
+
+![alt text](65.png)
+
+Click to exit full-screen mode.
+
+![alt text](66.png)
 
 ## **Open "Admin Console" Menu**
 

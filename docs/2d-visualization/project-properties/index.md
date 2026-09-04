@@ -17,6 +17,9 @@ Click the Settings button on the menu bar to set properties.
 | Running Page Loading Style | Used to set the running page and the loading effect before the page content is fully loaded. If not enabled, the system default loading effect will be used; if enabled, the user is allowed to customize the loading background color and loading style of the running page.  <br>![alt text](2.png)     |
 | Loading Background Color   | This configuration item is only displayed after turning on "Running Page Loading Style". Set the background color of the running page when loading.    |
 | Loading Style              | This configuration item is only displayed after turning on "Running Page Loading Style". Set the loading animation when the running page is loaded.  Built-in styles support changing colors. After selecting the style, click the "Set Color" button to modify the color.  It also supports users to upload pictures by themselves. Images uploaded by users themselves do not support color modification.    |
+| Enable Fullscreen Button  | The full-screen button for the Runtime Page can be enabled or disabled. When enabled, the full-screen button shall appear when the mouse pointer is moved to any of the four corners of the Runtime Page. Clicking the button shall display the Runtime Page in full-screen mode.  |
+| Fullscreen Button Color  | Sets the color of the full-screen button. |
+| Exit Fullscreen Button Color  | Sets the color of the exit full-screen button.  |
 | Auto Login                 | When the Auto Login is enabled, you can view the running page without logging in.  <br>![alt text](3.png)  <br> **Notes**: <br>The **Username** can only be selected from users whose user type is Runtime.When selecting the engineering user, an error message will be displayed when saving.|
 | User Name                  | User name for automatic login.    |
 | Password                   | Password for the automatic login.   |
@@ -28,8 +31,6 @@ Click the Settings button on the menu bar to set properties.
 2. If auto-login is enabled and the username and password are correctly configured, the password field will be automatically hidden when reopening the settings page. If the username is changed, the password field will appear, allowing you to update the auto-login username and password. Once the username and password are correctly configured, auto-login will remain effective even if the password is later changed. If you no longer need the auto-login feature, you can disable it at any time. 
 3. Autologin is configured at the project level, and after logging in, only the current project's permissions are granted. It is not possible to use autologin for two different projects simultaneously in the same client browser. For example, if Project A has already been autologged in on the current browser, switching to autologin for Project B requires first logging out from Project A before autologin for Project B can take effect. 
 4. When accessing the runtime page using autologin, and then switching to the console page, the session will only have view-only permissions — regardless of the permissions configured for the autologin account. To restore proper permissions, the user must log out and log in again using a regular account.
-
-
 
 ## Run page loading styles
 
@@ -47,6 +48,16 @@ Sets the loading effect for the running page when navigating from Page1 to Page 
     Run the page and click the "Open Page 2" button on page 1. The page is loading. When the loading is completed, Page 2 is displayed.
 
     ![page1](../../assets/images/page1.gif)
+
+
+## Runtime Page Full Screen
+
+1. Enable the full-screen function for the Runtime Page.
+2. On the Runtime Page, when the mouse pointer is moved to any corner, the Full Screen button shall be displayed. Clicking the button shall switch the Runtime Page to full-screen mode.
+3. In full-screen mode, when the mouse pointer is moved to any corner, the Exit Full Screen button shall be displayed. Clicking the button shall exit full-screen mode.
+
+    ![alt text](8.png)
+
 
 ## Auto-login for Project Runtime Page
 
