@@ -55,11 +55,14 @@ If you see the message **"Failed to install libice6/libsm6. Please try installin
 ## **Configuration**
 
 1. Read and agree the license agreement
+   ![alt text](50.png)
 2. Create an administrator user. Remember this username and password, as you will use them to log in for the first time. 
    ![alt text](25.png)
 3. Port configuration, configure HTTP, HTTPS ports, and remember the access port. 
    ![alt text](26.png)
-4. After completing the above steps, wait for the program to load, and then you can log in to the default workspace with the administrator user created in step 2.
+4. Configure Https connection and certificate.
+   ![alt text](51.png)
+5. After completing the above steps, wait for the program to load, and then you can log in to the default workspace with the administrator user created in step 2.
 
 **Note**: If you perform an upgrade installation, a new empty workspace will be created by default. To return to the original workspace, you need to log in to the new workspace first and then manually open the original workspace from the workspace list. 
 

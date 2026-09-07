@@ -195,6 +195,12 @@ nav:
                   - management-platform/index.md
                   - License:
                             - management-platform/license/index.md
+                  - AI:
+                            - management-platform/ai/index.md
+                            - Model:
+                                      - management-platform/ai/model/index.md  
+                            - Prompt:
+                                      - management-platform/ai/prompt/index.md             
                   - Workspaces:
                             - management-platform/workspaces/index.md
                             - management-platform/workspaces/multi-workspace-management.md

@@ -28,7 +28,7 @@ Recommended Systems for Installation:
       ![alt text](10.png)
 8. The installation is complete.
       ![alt text](11.png)
-9.  After completion, the default access to the VC Hub site is: `http://localhost:8066`. After the installation, you will enter the configuration wizard interface.
+9. After completion, the default access to the VC Hub site is: `http://localhost:8066`. After the installation, you will enter the configuration wizard interface.
 
 ## **Configuration Steps**
 
@@ -36,7 +36,9 @@ Recommended Systems for Installation:
       ![alt text](12.png)
 2. Port configuration, configure HTTP, HTTPS ports, and remember the access port. 
       ![alt text](13.png)
-3. After completing the above steps, wait for the program to load, and then you can log in to the default-created workspace with the user created in step 1.
+3. Configure HTTPS connection and certificate.  
+      ![alt text](52.png)   
+4. After completing the above steps, wait for the program to load, and then you can log in to the default-created workspace with the user created in step 1.
 
 **Note**:
 

@@ -8,7 +8,6 @@ Used to centrally manage certificates. Each type of certificate is stored indepe
 
 ![alt text](13.png)
 
-
 ## Web Server Certificate
 
 By default, the **TLS certificate** option is selected.
@@ -18,7 +17,6 @@ By default, the **TLS certificate** option is selected.
 
 ![alt text](14.png)
 
-
 Once the certificate is configured, click the "View" button to view the detailed information.
 
 ## Redundancy and Networking Certificate
@@ -26,10 +24,9 @@ Once the certificate is configured, click the "View" button to view the detailed
 By default, the **TLS Certificate** option is selected.
 
 - If the user already has a TLS certificate, they can click the **Upload** button  to upload their own TLS certificate.
-- If the user does not have a TLS certificate, they can select the **System self-signed certificate** option to use the built-in system certificate for secure communication.Clicking the **Regenerate** button will generate a new self-signed certificate.
+- If the user does not have a TLS certificate, they can select the **System self-signed certificate** option to use the built-in system certificate for secure communication. Clicking the **Regenerate** button will generate a new self-signed certificate.
 
 ![alt text](15.png)
-
 
 Once the certificate is configured, click the "View" button to view the detailed information.
 

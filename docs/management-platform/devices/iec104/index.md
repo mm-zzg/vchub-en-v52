@@ -36,7 +36,7 @@ For bulk import/export workflows, see [Batch Operation](batch-operation.md).
 7. Click **OK**. The new device is shown in the IEC104 device list.
    ![alt text](1.png)
 8. In the device list, turn on **Enable Status** for the device.
-   ![alt text](2.png)
+   ![alt text](2.png) 
 9. On the device View page, server endpoint status is shown as Active or Standby. Only one endpoint can be Active: VC Hub checks endpoints in configured order and sets the first available endpoint to Active; once one endpoint is Active, all others remain Standby and are not connected.
     - **Active**: the server endpoint currently in use for connection.
     - **Standby**: configured endpoint not currently used for the active connection.
