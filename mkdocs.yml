@@ -194,13 +194,7 @@ nav:
         - Management Platform:
                   - management-platform/index.md
                   - License:
-                            - management-platform/license/index.md
-                  - AI:
-                            - management-platform/ai/index.md
-                            - Model:
-                                      - management-platform/ai/model/index.md  
-                            - Prompt:
-                                      - management-platform/ai/prompt/index.md             
+                            - management-platform/license/index.md           
                   - Workspaces:
                             - management-platform/workspaces/index.md
                             - management-platform/workspaces/multi-workspace-management.md
@@ -351,6 +345,12 @@ nav:
                                       - management-platform/security/identity-provider/azure-AD-integration.md
                                       - management-platform/security/identity-provider/integrates-with-OAuth0.md
                             - management-platform/security/open-api.md
+                  - AI:
+                            - management-platform/ai/index.md
+                            - Model:
+                                      - management-platform/ai/model/index.md  
+                            - Prompt:
+                                      - management-platform/ai/prompt/index.md  
                   - Password Reset:
                             - management-platform/password-reset/index.md
                   - Node Configuration:
