@@ -350,7 +350,9 @@ nav:
                             - Model:
                                       - management-platform/ai/model/index.md  
                             - Prompt:
-                                      - management-platform/ai/prompt/index.md  
+                                      - management-platform/ai/prompt/index.md
+                            - Using AI:
+                                      - management-platform/ai/using-ai/index.md
                   - Password Reset:
                             - management-platform/password-reset/index.md
                   - Node Configuration:
