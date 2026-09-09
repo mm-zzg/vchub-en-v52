@@ -27,8 +27,9 @@ After entering the model configuration:
 1. Click Test Connection to verify that the AI model is available and can be accessed successfully.
 2. The model configuration can be saved only after the connection test is successful.
 3. After the model is added, it is disabled by default. Enable the model manually before using it.
-4. Once enabled, the model is available in the Model drop-down list in the Script Editor.<br>
-     ![alt text](2.png)
+4. Once enabled, the model is available in the Model drop-down list in the Script Editor.
+
+    ![alt text](2.png)
 
 
 
