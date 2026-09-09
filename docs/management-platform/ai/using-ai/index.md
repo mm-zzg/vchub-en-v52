@@ -97,9 +97,9 @@ Assume that three motors are available in the system: Motor1, Motor2, and Motor3
 
 The requirement is to stop all three motors when the following conditions are met:
 
-The rotational speed of Motor1 exceeds 1000.
-The rotational speed of Motor2 exceeds 1000.
-The rotational speed of Motor3 exceeds 2000.
+1. The rotational speed of Motor1 exceeds 1000.
+2. The rotational speed of Motor2 exceeds 1000.
+3. The rotational speed of Motor3 exceeds 2000.
 
 **Procedure:**
 
@@ -125,3 +125,4 @@ When the rotational speeds of Motor1 and Motor2 exceed 1000, and the rotational 
 8. Save the script.
 ![alt text](12.png)
 
+**Example 2: Controlling Multiple Motors**
