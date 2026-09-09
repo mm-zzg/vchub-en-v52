@@ -91,7 +91,7 @@ Click the List button next to a file to open the list window. All selected data 
 
 ### Use an AI assistant to write the script
 
-**Example 1: Controlling Multiple Motors**
+**Example:** Controlling Multiple Motors
 
 Assume that three motors are available in the system: Motor1, Motor2, and Motor3.
 
@@ -125,9 +125,9 @@ When the rotational speeds of Motor1 and Motor2 exceed 1000, and the rotational 
 8. Save the script.
 ![alt text](12.png)
 
-**Example 2: Generate pages**
+### Use an AI assistant to generate pages
 
-Create a page using an HTML Viewer to display the operating status and real-time data of Motor1, Motor2, and Motor3.
+**Example:** Create a page using an HTML Viewer to display the operating status and real-time data of Motor1, Motor2, and Motor3.
 
 **Procedure:**
 
