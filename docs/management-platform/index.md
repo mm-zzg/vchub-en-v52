@@ -18,7 +18,7 @@
 |[AI](ai/index.md)   | Configure Models and Prompts for the AI Assistant. Models provide the AI capabilities, while Prompts define instructions for specific business scenarios. The configured Models and Prompts can be selected when using the AI Assistant.  |
 | [Diagnostics](diagnostics/index.md)                              | VC Hub is a complex system involving various aspects, so in order to monitor and diagnose the VC Hub system itself, it provides a wealth of diagnostics functions. For example, you can use the diagnostics to check in real time the CPU and memory occupied by the VC Hub system, as well as to check in real time the operating performance of VC Hub.   |
 
-Notes: 
+**Notes:**
 
 1. VC Hub only has a built-in SQLite database for storing the necessary system configuration information, etc. Therefore, VC Hub does not provide any databases of its own, but only connectivity and access to these databases, so you will need to configure these third-party databases, such as MySQL, SQL Server, etc., on your own.
 
