@@ -125,4 +125,34 @@ When the rotational speeds of Motor1 and Motor2 exceed 1000, and the rotational 
 8. Save the script.
 ![alt text](12.png)
 
-**Example 2: Controlling Multiple Motors**
+**Example 2: Generate pages**
+
+Create a page using an HTML Viewer to display the operating status and real-time data of Motor1, Motor2, and Motor3.
+
+**Procedure:**
+
+1. Add an HTML Viewer control to the page.
+2. Click the button next to the Source Data property to open the Script Editor.
+3. In the Script Editor, select a Model.
+4. Click the Tag button below the chat input field and select the following tags:
+    - `@Demo:Motor1.Power`
+    - `@Demo:Motor2.Power`
+    - `@Demo:Motor3.Power`
+    - `@Demo:Motor1.Speed`
+    - `@Demo:Motor2.Speed`
+    - `@Demo:Motor3.Speed`
+    - `@Demo:Motor1.Running_Status`
+    - `@Demo:Motor2.Running_Status`
+    - `@Demo:Motor3.Running_Status`
+5. Enter the following request in the chat input field:
+```
+Display the real-time data of Motor1, Motor2, and Motor3. The page uses a dark background.
+```
+6. Click Send.
+7. Review the generated code in the AI Assistant panel.
+![alt text](14.png)
+8. If the generated code is correct, click **Apply to Editor** to apply the code to the Script Editor.
+![alt text](15.png)
+9. Click Review to preview the generated page. If the result does not meet the requirements, continue the conversation with the AI Assistant to make adjustments. If the result is satisfactory, click OK to save it.
+10. After saving, the HTML Viewer displays a page similar to the following:
+![alt text](16.png)
