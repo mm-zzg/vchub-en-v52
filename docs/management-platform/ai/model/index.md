@@ -20,19 +20,14 @@ Users can add a new model by clicking on the Add button in the upper right corne
 | API Version | This field is displayed only when API Style is set to Azure OpenAI. Specifies the API version used to communicate with the AI model service.|
 | Model ID    | Specifies the identifier of the AI model to be used. The Model ID must match the model provided by the configured AI service. |
 
+After a Provider is selected, API Style and API Address are automatically populated based on the selected provider. A link for obtaining the API Key is displayed below the API Key field.
 
-After selecting a Provider, the API Style and API Address are automatically populated based on the selected provider. A link to obtain the API Key is displayed below the API Key field.
+After entering the model configuration:
 
-![alt text](4.png)
-
-- After entering the model configuration, click Test Connection to verify that the AI model is available and can be accessed successfully.
-
-- The configuration can only be saved after the connection test is successful.
-
-- After a model is added, it is disabled by default. The model must be manually enabled before it can be used.
-
-- Once enabled, the model is available in the Model drop-down list in the Script Editor.
-
+1. Click Test Connection to verify that the AI model is available and can be accessed successfully.
+2. The model configuration can be saved only after the connection test is successful.
+3. After the model is added, it is disabled by default. Enable the model manually before using it.
+4. Once enabled, the model is available in the Model drop-down list in the Script Editor.
      ![alt text](2.png)
 
 
