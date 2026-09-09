@@ -105,12 +105,12 @@ The requirement is to stop all three motors when the following conditions are me
 
 1. In the Script Editor, select a Model.
 2. Click the Tag button below the chat input field and select the following tags:
-    - @Demo:Motor1.Speed
-    - @Demo:Motor2.Speed
-    - @Demo:Motor3.Speed
-    - @Demo:Motor1.Running_Status
-    - @Demo:Motor2.Running_Status
-    - @Demo:Motor3.Running_Status
+    - `@Demo:Motor1.Speed`
+    - `@Demo:Motor2.Speed`
+    - `@Demo:Motor3.Speed`
+    - `@Demo:Motor1.Running_Status`
+    - `@Demo:Motor2.Running_Status`
+    - `@Demo:Motor3.Running_Status`
 3. Enter the following request in the chat input field:
 ```
 When the rotational speeds of Motor1 and Motor2 exceed 1000, and the rotational speed of Motor3 exceeds 2000, stop all three motors.
