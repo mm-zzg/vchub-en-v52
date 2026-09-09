@@ -8,14 +8,14 @@ Before using this feature, a suitable AI model must be purchased and configured 
 
 The configured AI model can be used in the following areas:
 
-1. **Admin Console – Script**  
-   Create and edit Service Functions and Shared Functions.
+1. **Admin Console – Script** <br> 
+   Create and edit Service Functions and Shared Functions.<br>
    ![alt text](1.png)
-2. **Editor – Events**
-   Create and edit scripts for pages or controls in the Event settings.
+2. **Editor – Events**<br>
+   Create and edit scripts for pages or controls in the Event settings.<br>
    ![alt text](2.png)
-3. **Control - HTML Viewer**
-   Generate HTML code.
+3. **Control - HTML Viewer**<br>
+   Generate HTML code.<br>
    ![alt text](3.png)
 
 ## AI Assistant

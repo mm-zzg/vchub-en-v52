@@ -33,7 +33,7 @@ After selecting a Provider, the API Style and API Address are automatically popu
 
 - Once enabled, the model is available in the Model drop-down list in the Script Editor.
 
-   ![alt text](2.png)
+     ![alt text](2.png)
 
 
 
