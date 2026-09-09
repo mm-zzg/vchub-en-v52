@@ -1,6 +1,6 @@
 # Using AI
 
-To use the AI features, add and enable a model under AI > Model.
+To use the AI features, add and enable a model under **AI > Model**.
 
 AI is available only in the Script Editor through the AI Assistant, which helps users quickly generate scripts.
 
@@ -47,17 +47,17 @@ Enter a request in natural language in the input field to interact with the AI A
 
 ![alt text](7.png)
 
-Because the AI Assistant is intended to help generate scripts, data such as tags must be explicitly selected during the conversation when they are required by the script.
+When a script requires specific data, such as tags, properties, or files, the required data must be explicitly selected during the conversation.
 
-For example, if the script needs to use the variable Motor1.Speed, click the Tag button and select the required variable.
+For example, if the script needs to use the tag `Motor1.Speed`, click the Tag button and select the required tag.
 
 ![alt text](5.png)
 
-The selected data is displayed above the input field. If multiple items are selected, use the left and right arrow buttons to navigate through the selected items.
+Selected data is displayed above the input field. If multiple items are selected, use the left and right arrow buttons to navigate through the selected items.
 
 ![alt text](6.png)
 
-After selecting the required data, enter a natural-language request in the input field.
+After selecting the required data, enter the request in the input field.
 
 For example: Change the speed of Motor 1 to 2000.
 
@@ -83,19 +83,19 @@ Click the List button next to a file to open the list window. All selected data 
 1. Add and enable a model under AI > Model.
 2. Open a location that supports script editing.
 3. Open the AI Assistant panel.
-4. Select a model and prompt.
+4. Select the Model to use and, if needed, select a Prompt.
 5. Select the required parameters, such as tags or properties, and enter a request in natural language.
-6. Submit the request. The AI Assistant generates the script based on the selected prompt and user input.
+6. Click Send. The AI Assistant generates the script based on the selected prompt and user input.
 7. Review the generated script and apply it if it meets the requirements.
-8. Save scripts.
+8. Save the scripts.
 
-### Write the script
+### Example 1: Write a Script
 
-**Example:** Controlling Multiple Motors
+**Requirement:** Control multiple motors based on their rotational speeds.
 
 Assume that three motors are available in the system: Motor1, Motor2, and Motor3.
 
-The requirement is to stop all three motors when the following conditions are met:
+Stop all three motors when the following conditions are met:
 
 1. The rotational speed of Motor1 exceeds 1000.
 2. The rotational speed of Motor2 exceeds 1000.
@@ -125,9 +125,9 @@ When the rotational speeds of Motor1 and Motor2 exceed 1000, and the rotational 
 8. Save the script.
 ![alt text](12.png)
 
-### Generate pages
+### Example 2: Generate a Page
 
-**Example:** Create a page using an HTML Viewer to display the operating status and real-time data of Motor1, Motor2, and Motor3.
+**Requirement:** Create a page using an HTML Viewer to display the operating status and real-time data of Motor1, Motor2, and Motor3.
 
 **Procedure:**
 
