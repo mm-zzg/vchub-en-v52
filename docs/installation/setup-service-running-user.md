@@ -1,4 +1,4 @@
-# Setup Service Running User (On-Premises Only)
+# Setup Service Running User 
 
 By specifying a particular user identity for the "VC Hub" service, you can limit the service's permissions, granting it only the **minimum privileges necessary** for its operation. This helps prevent the service from being misused or exploited for malicious activities. Running different services under different users can **isolate** these services from each other, preventing vulnerabilities or issues in one service from affecting others. It also makes it easier to **track and audit** the activities of the "WAGO Visualization And Control Hub" service.
 

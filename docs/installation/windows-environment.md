@@ -1,4 +1,4 @@
-# Windows Environment (On-Premises Only)
+# Windows Environment 
 
 VC Hub provides installation packages for the 64-bit Windows operating system.
 

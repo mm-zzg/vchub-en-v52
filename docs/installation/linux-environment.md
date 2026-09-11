@@ -1,4 +1,4 @@
-# Linux Environment (On-Premises Only)
+# Linux Environment 
 
 VC Hub provides an installation package for the Linux environment, with the file name wagovisualizationandcontrolhub-x.x.x-linux-x64-installer.run.
 

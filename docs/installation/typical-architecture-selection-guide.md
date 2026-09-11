@@ -1,4 +1,4 @@
-# Typical Architecture Selection Guide (On-Premises Only)
+# Typical Architecture Selection Guide 
 
 ## Single Server Architecture
 
