@@ -1,4 +1,4 @@
-# Branding & Theming (Labeling)
+# Branding & Theming (On-Premises Only)
 
 The Labeling feature enables branding and UI theming customization for WAGO VC Hub during product delivery.
 

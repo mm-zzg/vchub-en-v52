@@ -1,4 +1,4 @@
-# Installation and Upgrade
+# Installation and Upgrade (On-Premises Only)
 
 ## **Installation Environment**
 

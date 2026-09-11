@@ -184,6 +184,8 @@ nav:
                   - installation/branding-and-theming.md
         - Quick Start Guide:
                   - quick-start-guide/index.md
+                  - quick-start-guide/on-premises.md
+                  - quick-start-guide/cloudx.md
         - System Deployment:
                   - system-deployment/index.md
                   - system-deployment/standalone-deployment.md
