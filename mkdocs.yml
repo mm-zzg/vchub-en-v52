@@ -168,12 +168,12 @@ not_in_nav: |
 
 # Page tree
 nav:
-        - Product Overview:
+        - Overview:
                   - overview/index.md
                   - overview/version-update-notes.md
                   - overview/system-requirements.md
                   - overview/breaking-changes.md
-        - New in this Version:
+        - What's New:
                   - new-version/index.md
         - Installation and Upgrade:
                   - installation/index.md
@@ -182,12 +182,12 @@ nav:
                   - installation/typical-architecture-selection-guide.md
                   - installation/setup-service-running-user.md
                   - installation/branding-and-theming.md
-        - Quick Start Guide:
+        - Quick Start:
                   - quick-start-guide/index.md
                   - quick-start-guide/on-premises.md
                   - quick-start-guide/cloud.md
 
-        - System Deployment:
+        - Deployment:
                   - system-deployment/index.md
                   - system-deployment/standalone-deployment.md
                   - system-deployment/network-deployment.md
