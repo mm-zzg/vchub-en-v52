@@ -28,6 +28,27 @@ jobs:
       - run: pip install mkdocs-material 
       - run: pip install mkdocs-minify-plugin
       - run: pip install mkdocs-ezlinks-plugin
-      - run: mkdocs gh-deploy --force
-      - run: DOCS_BUILD_MODE=saas mkdocs gh-deploy --force --remote-branch gh-pages-saas
+      - name: Deploy on-premise documentation to this repository
+        env:
+          DOCS_BUILD_MODE: on-premise
+        run: mkdocs gh-deploy --force
+      - name: Deploy SaaS documentation to this repository
+        env:
+          DOCS_BUILD_MODE: saas
+        run: mkdocs gh-deploy --force --remote-branch gh-pages-saas
+      - name: Configure SaaS target repository
+        env:
+          DEPLOY_TOKEN: ${{ secrets.DOCS_DEPLOY_TOKEN }}
+          TARGET_REPOSITORY: ${{ github.repository }}-saas
+        run: |
+          git remote add docs-target \
+            "https://x-access-token:${DEPLOY_TOKEN}@github.com/${TARGET_REPOSITORY}.git"
+      - name: Deploy SaaS documentation to target repository
+        env:
+          DOCS_BUILD_MODE: saas
+        run: |
+          mkdocs gh-deploy \
+            --force \
+            --remote-name docs-target \
+            --remote-branch gh-pages
     
