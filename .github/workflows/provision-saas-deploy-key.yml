@@ -1,0 +1,68 @@
+name: Provision SaaS deploy key
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  provision:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ secrets.DEPLOY_KEY_BOOTSTRAP_TOKEN }}
+      SOURCE_REPOSITORY: ${{ github.repository }}
+      TARGET_REPOSITORY: ${{ github.repository }}-saas
+      DEPLOY_KEY_TITLE: saas-pages-deploy-key
+    steps:
+      - name: Validate bootstrap token
+        run: |
+          if [ -z "${GH_TOKEN}" ]; then
+            echo "DEPLOY_KEY_BOOTSTRAP_TOKEN is not configured"
+            exit 1
+          fi
+
+      - name: Generate and register deploy key
+        run: |
+          set -euo pipefail
+          umask 077
+
+          key_directory="$(mktemp -d)"
+          private_key="${key_directory}/id_ed25519"
+          trap 'rm -rf "${key_directory}"' EXIT
+
+          ssh-keygen \
+            -t ed25519 \
+            -C "github-actions:${SOURCE_REPOSITORY}" \
+            -N "" \
+            -f "${private_key}"
+
+          public_key="$(cat "${private_key}.pub")"
+
+          gh secret set SAAS_DEPLOY_KEY \
+            --repo "${SOURCE_REPOSITORY}" \
+            < "${private_key}"
+
+          gh variable set SAAS_DEPLOY_PUBLIC_KEY \
+            --repo "${SOURCE_REPOSITORY}" \
+            --body "${public_key}"
+
+          existing_key_ids="$(
+            gh api "repos/${TARGET_REPOSITORY}/keys" \
+              --jq ".[] | select(.title == \"${DEPLOY_KEY_TITLE}\") | .id"
+          )"
+
+          for key_id in ${existing_key_ids}; do
+            gh api \
+              --method DELETE \
+              "repos/${TARGET_REPOSITORY}/keys/${key_id}"
+          done
+
+          gh api \
+            --method POST \
+            "repos/${TARGET_REPOSITORY}/keys" \
+            -f title="${DEPLOY_KEY_TITLE}" \
+            -f key="${public_key}" \
+            -F read_only=false
+
+          echo "Configured a writable deploy key for ${TARGET_REPOSITORY}"
