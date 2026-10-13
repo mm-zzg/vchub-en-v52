@@ -1,14 +1,14 @@
-# Cloud Version
+# Quick Start
 
 ## 1. Subscribe to VC Hub
 
-TODO
-
-
-
-
-
-
+1. Log in to the Solutions Platform.
+2. Click **Apps** in the left navigation menu, then click **VC Hub App** on the right to open the app details page.
+3. Select a package and click **Enable**.
+4. Click **Home** in the left navigation menu, then click **VC Hub App** on the right, as shown below.
+  ![alt text](40.png)
+5. The VC Hub startup page is displayed.
+6. Once VC Hub has finished starting, the project page is displayed.
 
 ## 2. Start working with VC Hub
 
@@ -18,7 +18,7 @@ Click the "Add" button in the project list to create a project.
 
 ![alt text](1.png)
 
-### 2.32 Add Assets
+### 2.2 Add Assets
 
 After the installation of VC Hub, a default asset will be automatically created, which you can use for basic testing. You can also click "Tags" -> "[Assets](../management-platform/assets-and-tags/asset/index.md)" page and then click the "New" button to create new assets.
 

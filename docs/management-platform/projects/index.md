@@ -2,7 +2,7 @@
 
 ## **What is a project?**
 
-Projects are used to manage the visualization elements of the VC Hub system, and through multi-project management, it is possible to clearly differentiate between the presentation and design of configuration screens in several industrial application scenarios. In a project, **configuration controls**, **tag** **s** and **scripts** allow the user to freely configure a variety of digital visualization interfaces in order to cope with different industrial production scenarios.
+Projects are used to manage the visualization elements of the VC Hub system, and through multi-project management, it is possible to clearly differentiate between the presentation and design of configuration screens in several industrial application scenarios. In a project, **configuration controls**, **tags** and **scripts** allow the user to freely configure a variety of digital visualization interfaces in order to cope with different industrial production scenarios.
 
 In the VC Hub system, the project is a configuration unit that contains:
 
@@ -57,11 +57,9 @@ Users can input the keywords of the **project name** through the input box at th
 
 ![alt text](8.png)
 
-
 #### **Add**
 
 ![alt text](9.png)
-
 
 Users can create a new project by clicking on the Add button in the upper right corner button and entering the basic information of the project.
 
@@ -77,9 +75,7 @@ Select any project and click Design button to open the project design page.
 
 ![alt text](10.png)
 
-
 ![alt text](11.png)
-
 
 Please refer to: [2D Configuration](../../2d-visualization/index.md), [3D Configuration](../../3d-visualization/index.md), [Assets and Tags](../assets-and-tags/index.md) for specific function introduction of the design page.
 

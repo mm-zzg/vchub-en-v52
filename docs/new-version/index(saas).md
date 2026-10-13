@@ -1,0 +1,39 @@
+# New in this Version
+
+## Separate licensing for runtime and engineering users
+
+The **user type** have been added for users,including **Engineering User** and **Runtime User**. 
+
+When a user logs in, the system opens the corresponding interface based on the assigned user type.
+
+- After logging in, **Engineering Users** are redirected to the Admin Console page, where they can perform system configuration and access design-related pages.
+
+- After logging in, **Runtime Users** are directed to the runtime pages for system monitoring and operation.
+
+Users with security permissions can view all currently online engineering and runtime users under the **Security → Online User** menu. They also have the ability to force log out selected users.
+
+## IEC 60870-5-104
+
+The system now includes support for the IEC 60870-5-104 (IEC 104) communication protocol, enabling VC Hub to communicate efficiently and reliably with industry-standard power equipment and dispatching systems, and providing real-time monitoring and remote control capabilities while enhancing system interoperability and industry compatibility.
+
+
+## OPEN APIs Enhancement
+
+This release significantly enhances the OpenAPI capabilities.
+
+ It introduces batch and CRUD (create, read, update, delete) APIs for assets, models, instances, tags, and alarm configurations, along with improved metadata support such as extended attributes and the ability to retrieve full tag information in a single response. Error messages have also been improved to provide clearer and more consistent feedback.
+
+In addition, full lifecycle management APIs are provided for Modbus TCP devices and frames, including creation, modification, deletion, start/stop control, connection status subscription, connection testing, and device querying with frame information.
+
+
+## Two New Navigation Types Added to the Menu Control
+
+When clicking a menu item in the Menu control, in addition to the existing options of navigating to a new page or opening a new popup window, two new navigation types have been added: **Page Container** and **IFrame**.
+
+Within a Page Container or IFrame, users can now switch between different pages by clicking menu items without refreshing the current page.
+
+![](1.png)
+
+## Support importing projects across minor versions
+
+Projects can be imported from an earlier minor version into a later minor version, such as from 5.0.x to 5.1.x. Previously, only projects from the previous patch version, such as 5.0.1 to 5.0.2, were supported.
