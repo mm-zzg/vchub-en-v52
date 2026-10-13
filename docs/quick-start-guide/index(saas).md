@@ -18,7 +18,7 @@ Click the "Add" button in the project list to create a project.
 
 ![alt text](1.png)
 
-### 2.32 Add Assets
+### 2.2 Add Assets
 
 After the installation of VC Hub, a default asset will be automatically created, which you can use for basic testing. You can also click "Tags" -> "[Assets](../management-platform/assets-and-tags/asset/index.md)" page and then click the "New" button to create new assets.
 
