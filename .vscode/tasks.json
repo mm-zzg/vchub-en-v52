@@ -36,6 +36,49 @@
           "endsPattern": "."
         }
       }
+    },
+    {
+      "label": "Preview docs: on-premise",
+      "type": "shell",
+      "command": "mkdocs serve --dirtyreload --dev-addr 127.0.0.1:8000",
+      "isBackground": true,
+      "options": {
+        "env": {
+          "DOCS_BUILD_MODE": "on-premise"
+        }
+      },
+      "presentation": {
+        "group": "docs-preview",
+        "reveal": "always",
+        "panel": "dedicated"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Preview docs: SaaS",
+      "type": "shell",
+      "command": "mkdocs serve --dirtyreload --dev-addr 127.0.0.1:8001",
+      "isBackground": true,
+      "options": {
+        "env": {
+          "DOCS_BUILD_MODE": "saas"
+        }
+      },
+      "presentation": {
+        "group": "docs-preview",
+        "reveal": "always",
+        "panel": "dedicated"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Preview docs: both modes",
+      "dependsOn": [
+        "Preview docs: on-premise",
+        "Preview docs: SaaS"
+      ],
+      "dependsOrder": "parallel",
+      "problemMatcher": []
     }
   ]
 }

@@ -90,6 +90,7 @@ plugins:
 hooks:
         - material/overrides/hooks/shortcodes.py
         - material/overrides/hooks/translations.py
+        - hooks/document_modes.py
 
 # Additional configuration
 extra:
@@ -184,8 +185,7 @@ nav:
                   - installation/branding-and-theming.md
         - Quick Start:
                   - quick-start-guide/index.md
-                  - quick-start-guide/on-premises.md
-                  - quick-start-guide/cloud.md
+              
 
         - Deployment:
                   - system-deployment/index.md
