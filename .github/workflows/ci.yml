@@ -29,4 +29,5 @@ jobs:
       - run: pip install mkdocs-minify-plugin
       - run: pip install mkdocs-ezlinks-plugin
       - run: mkdocs gh-deploy --force
+      - run: DOCS_BUILD_MODE=saas mkdocs gh-deploy --force --remote-branch gh-pages-saas
     
