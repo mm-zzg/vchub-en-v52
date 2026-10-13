@@ -1,4 +1,4 @@
-# System Requirements (On-Premises Only)
+# System Requirements
 
 ## Recommended Hardware Configuration
 
