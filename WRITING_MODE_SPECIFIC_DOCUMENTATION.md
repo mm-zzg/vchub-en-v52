@@ -115,6 +115,8 @@ Prefer a shared asset outside mode-specific folders when both modes use the same
 
 Always link to canonical document paths, not physical variant filenames or folders.
 
+The build maps the selected source file to its canonical path before rendering Markdown. Therefore, canonical relative links resolve correctly even when no physical file with the canonical name exists in the source tree.
+
 Correct:
 
 ```markdown
@@ -128,7 +130,32 @@ Incorrect:
 [Configure deployment](../deployment/index(saas).md)
 ```
 
-A link from shared content to a mode-only page will be broken in the mode where that page is unavailable. Avoid such links, or move the referring content into the same mode-specific variant.
+### Link between variant files
+
+Use canonical names when linking between files in the same variant folder. For example, this link inside `deployment(saas)/index.md` correctly resolves to the selected `deployment(saas)/tenant-settings.md` source:
+
+```markdown
+[Configure tenant settings](tenant-settings.md)
+```
+
+Do not include `(saas)` in the link.
+
+### Link to mode-only pages
+
+A link from shared content to a mode-only page will be broken in the mode where that page is unavailable. Navigation entries are removed automatically, but links inside Markdown content are not removed or rewritten.
+
+| Referring page | Target page | Safe? |
+| --- | --- | --- |
+| Shared | Shared | Yes |
+| Shared | Mode-only | No |
+| On-premise variant | On-premise-only | Yes |
+| SaaS variant | SaaS-only | Yes |
+| One mode | Page available only in the other mode | No |
+
+When a target is mode-only, place the referring link in the corresponding mode-specific file or folder. If both modes need the link, provide a target variant for both modes.
+
+!!! note
+    An editor may report a canonical link such as `deployment/index.md` as missing because only suffixed source files exist on disk. The MkDocs build resolves the link after applying the mode mapping. Verify the link in both preview modes rather than changing it to a suffixed path.
 
 ## Avoid Naming Conflicts
 
