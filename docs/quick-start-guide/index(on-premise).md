@@ -1,4 +1,4 @@
-# On-Premises Version
+# Quick Start
 
 ## 1. System Requirements
 

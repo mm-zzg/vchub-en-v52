@@ -1,14 +1,14 @@
-# Cloud Version
+# Quick Start
 
 ## 1. Subscribe to VC Hub
 
-TODO
-
-
-
-
-
-
+1. Log in to the Solutions Platform.
+2. Click **Apps** in the left navigation menu, then click **VC Hub App** on the right to open the app details page.
+3. Select a package and click **Enable**.
+4. Click **Home** in the left navigation menu, then click **VC Hub App** on the right, as shown below.
+  ![alt text](40.png)
+5. The VC Hub startup page is displayed.
+6. Once VC Hub has finished starting, the project page is displayed.
 
 ## 2. Start working with VC Hub
 
