@@ -53,3 +53,7 @@ When clicking a menu item in the Menu control, in addition to the existing optio
 Within a Page Container or IFrame, users can now switch between different pages by clicking menu items without refreshing the current page.
 
 ![](1.png)
+
+## Support importing projects across minor versions
+
+Projects can be imported from an earlier minor version into a later minor version, such as from 5.0.x to 5.1.x. Previously, only projects from the previous patch version, such as 5.0.1 to 5.0.2, were supported.
