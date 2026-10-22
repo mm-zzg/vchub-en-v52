@@ -8,14 +8,14 @@ Recommended Systems for Installation:
 - Windows Server 2016
 - Windows Server 2019
 - Windows Server 2022
-- Windows 10  (Not supported in Home Edition)
-- Windows 11  (Not supported in Home Edition)
+- Windows 10 (Not supported in Home Edition)
+- Windows 11 (Not supported in Home Edition)
 
 ## **Installation Steps**
 
 1. Run the installation package program as an administrator.
 2. Select the installation language. <br>
-      ![alt text](5.png)
+      ![alt text](5.png)![alt text](image.png)
 3. Perform a port check, if the port is occupied, the installation cannot proceed. <br>
       ![alt text](6.png)
 4. Read and accept the license agreement. <br>
