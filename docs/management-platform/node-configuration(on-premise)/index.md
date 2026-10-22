@@ -11,5 +11,6 @@ Click on **Node** -> **Node Settings** to configure the current node information
 | Server Language | The server-side language of the VC Hub program.  |
 | HTTP Port       | Default 8066, supports modification to configure the HTTP port for the web service.  |
 | HTTPS Port      | Default 10043, support modification, configure the HTTPS port of the web service.  |
+| HSTS     | HTTP Strict Transport Security forces browsers to connect over HTTPS only. Make sure a valid HTTPS certificate is configured before enabling it. |
 | Public Address  | Network address for the external network, mainly used for runtime page master-backup switchover.  |
 
