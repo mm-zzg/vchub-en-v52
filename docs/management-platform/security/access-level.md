@@ -16,11 +16,11 @@ Example structure:
   - Roles
   - Plants
     - Plant 1
-      - Line A
-      - Line B
+         - Line A
+         - Line B
     - Plant 2
-      - Line A
-      - Line B
+         - Line A
+         - Line B
 
 In this structure:
 

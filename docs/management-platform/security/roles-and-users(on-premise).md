@@ -3,8 +3,13 @@
 VC Hub provides 3 built-in roles.
 
 - **Admin:** Has all privileges.  
-- **Configurator:** The only difference from Admin is that Admin cannot be selected for the role when creating a user.  
-- **Operator:** Can only view the running page of the project and view the devices.
+- **Configurator:** The difference from the Admin role is that it does not have permission to access Security settings.
+- **Operator:** Can only view the running page of the project.
+
+**Notes:**
+
+1. The built-in roles cannot be deleted.
+2. When editing a built-in role, only the "Startup Page" and "Description" can be modified.
 
 ## **Creating Roles**
 

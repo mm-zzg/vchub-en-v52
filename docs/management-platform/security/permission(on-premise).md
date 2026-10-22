@@ -33,7 +33,7 @@ It includes six categories:
 
 1. **Configure the Access Level**
 
-    **Method 1**: Manually enter the path in the Access Level textarea.
+    **Method 1**: Manually enter the path in the Access Level text area.
 
     ![alt text](13.png)
 
@@ -41,7 +41,7 @@ It includes six categories:
 
     ![alt text](14.png)
 
-    **Method 2:** Click the settings button on the right side of the Access Level textarea.
+    **Method 2:** Click the settings button on the right side of the Access Level text area.
 
     ![alt text](15.png)
 
@@ -55,11 +55,13 @@ It includes six categories:
 
     ![alt text](17.png)
 
-    After clicking the “OK” button, the following path will be displayed in the Access Level textarea of the corresponding category on the Permission page:
+    After clicking the “OK” button, the following path will be displayed in the Access Level text area of the corresponding category on the Permission page:
 
     ![alt text](18.png)
 
-    **Note:** If all the content in the Access Level textarea is deleted, "**Authenticated**" will be automatically filled in. This means that any user who successfully logs in will have this permission.
+    **Note:**  
+    
+    If all the content in the Access Level textarea is deleted, "**Authenticated / Roles / Admin**" will be automatically filled in. This means that only users with the role of "Admin" will have this permission.
 
 2. **Set the matching strategy**
 
