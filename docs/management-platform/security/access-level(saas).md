@@ -50,23 +50,23 @@ By assigning different Access Levels, it is possible to precisely control whethe
 
 **Note:** Roles added or deleted in the Access Level will not affect the role data in the "Role" list. They are independent of each other.
 
-![alt text](19.png)
+![alt text](58.png)
 
 The Access Level is displayed in a tree structure in the system. By default, five levels are reserved.
 
 - Authenticated
 - Authenticated/Roles 
-- Authenticated/Roles/Admin
-- Authenticated/Roles/Configurator
-- Authenticated/Roles/Operator
+- Authenticated/Roles/Administrator
+- Authenticated/Roles/Editor
+- Authenticated/Roles/Viewer
 
 | **Levels**                       | **Description**               |
 |----------------------------------|-------------------------------|
 | Authenticated                    | By default, users who have successfully logged in are assigned the "Authenticated" access level.   |
 | Authenticated/Roles              | You can add sub-levels under this level, but only one level of sub-levels can be added. For levels other than the "Authenticated/Roles" level, you can nest them to any depth according to your needs. These levels should correspond to the role names expected to be obtained from the Identity Provider. |
-| Authenticated/Roles/Admin        | System built-in role. |
-| Authenticated/Roles/Configurator | System built-in role. |
-| Authenticated/Roles/Operator     | System built-in role. |
+| Authenticated/Roles/Administrator       | System built-in role. All permissions on the Admin Console page are enabled by default.|
+| Authenticated/Roles/Editor | System built-in role. By default, the role does not have permission to view or access the Security menu, unlike the Administrator role.|
+| Authenticated/Roles/Viewer     | System built-in role. By default, the role only has permission to view the various lists. It does not have permission to view or access the Security menu.|
 
 ## Customize Access Level
 
@@ -83,7 +83,7 @@ It supports users to create their own Access Level.
 
 1. Right-click on the parent level where you need to add a new Access Level to open the drop-down menu.
 
-    ![alt text](20.png)
+    ![alt text](59.png)
 
 2. Click the "Add" button to open the add pop-up window.
 3. Enter the name and description of the newly added Access Level.
@@ -107,11 +107,11 @@ The content that the user has added under this level will not be affected by the
 
 1. Right-click on the "Authenticated/Roles" level to open the drop-down menu.
 
-    ![alt text](22.png)
+    ![alt text](60.png)
 
 2. Click the "Refresh" button, and all the roles under the role list will be automatically synchronized.
 
-    ![alt text](23.png)
+    ![alt text](61.png)
 
 3. Click the "Save"  button on the page, and the Access Level will be saved.
 
@@ -126,11 +126,11 @@ It supports modifying the existing Access Level.
 
 1. Right-click on the Access Level that needs to be modified to open the drop-down menu.
 
-    ![alt text](24.png)
+    ![alt text](62.png)
 
 2. Click the "Edit" button to open the modification pop-up window.
 
-    ![alt text](25.png)
+    ![alt text](63.png)
 
 3. Modify the Access Level or the description.
 4. Click the "OK" button in the pop-up window to save the modified content.
@@ -144,7 +144,7 @@ It supports the deletion operation of the existing Access Level.
 
 1. Right-click on the Access Level that needs to be deleted to open the drop-down menu.
 
-    ![alt text](26.png)
+    ![alt text](64.png)
 
 2. Click the "Delete" button to perform the deletion.
 
@@ -160,7 +160,7 @@ It supports the copying operation of the existing Access Level.
 1. Right-click on the Access Level that needs to be copied to open the drop-down menu.
 2. Click the "Copy" button, and the Access Level is successfully copied. (The current Access Level and its sub-levels will be copied together.)
 
-    ![alt text](27.png)
+    ![alt text](65.png)
 
 3. Right-click on the Access Level where you want to paste, and click the "Paste" button in the right-click menu. The copied Access Level and its sub-levels will be copied under the currently selected Access Level.
 4. Click the "Save" button on the page, and the Access Level will be saved.
@@ -177,11 +177,11 @@ It supports the cut operation of the existing Access Level.
 1. Right-click on the Access Level that needs to be cut to open the drop-down menu.
 2. Click the "Cut" button, and the Access Level is successfully cut. (The current Access Level and its sub-levels will be cut together.)
 
-    ![alt text](28.png)
+    ![alt text](66.png)
 
 3. Right-click on the Access Level where you want to paste, click the "Paste" button in the right-click menu, and the cut Access Level and its sub-levels will be pasted under the currently selected Access Level.
 
-    ![alt text](29.png)
+    ![alt text](67.png)
 
 4. Click the "Save" button on the page, and the Access Level will be saved.
 
@@ -194,18 +194,18 @@ It supports the cut operation of the existing Access Level.
 
 In order to avoid manual input errors, we support the quick copying of the Access Level path on the Access Level page, allowing you to paste it wherever needed.
 
-![alt text](30.png)
+![alt text](68.png)
 
 ## Export Access Level Configuration
 
 1. Click the "Export" button to export the data.
 
-    ![alt text](31.png)
+    ![alt text](69.png)
 
 ## Import Access Level Configuration
 
 1. Click the "Import" button to import the exported data.
 
-    ![alt text](32.png)
+    ![alt text](70.png)
 
 2. After the import is completed, click the "Save" button on the page to save the imported content.
