@@ -379,6 +379,8 @@ nav:
                             - management-platform/open-api/csharp-signalr-realtime-data.md
                             - management-platform/open-api/integration-api-definitions.md
                             - management-platform/open-api/modbustcp.md
+                            - management-platform/open-api/history-storage-api-definitions.md
+                            - management-platform/open-api/license-api-definitions.md
                             - Test With Postman:
                                       - management-platform/open-api/test-with-postman/index.md
                                       - management-platform/open-api/test-with-postman/get-access-token.md
@@ -470,7 +472,8 @@ nav:
                                       - 2d-visualization/controls/table/table.md
                                       - 2d-visualization/controls/table/historical-data-table.md
                                       - 2d-visualization/controls/table/tag-list.md
-                                      - 2d-visualization/controls/table/report-viewer.md          
+                                      - 2d-visualization/controls/table/report-viewer.md
+                                      - 2d-visualization/controls/table/select-execute-command.md           
                             - 2d-visualization/controls/modify-control-properties.md                           
                   - Libraries:
                             - 2d-visualization/libraries/index.md

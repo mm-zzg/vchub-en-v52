@@ -1,10 +1,12 @@
 # API Document (Swagger)
 
-When you enter the VC Hub host address in the browser and append the suffix "swagger" (e.g., `https://example.com/swagger`, `http://localhost:8066/swagger`), it will navigate to the Open API documentation page. This page lists all the Open API definitions for VC Hub.
+After entering VC Hub in the browser, and modify the suffix "swagger", it will navigate to the Open API documentation page. 
+
+For example, after logging in, if your browser address is `https://example.com/#/console/projects`, change it to `https://example.com/swagger`.
+
+This page lists all the Open API definitions for VC Hub.
 
 ![alt text](2.png)
-
-
 
 We can use Swagger to invoke and test these Open APIs.
 

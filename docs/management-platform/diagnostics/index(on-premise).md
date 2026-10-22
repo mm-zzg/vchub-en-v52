@@ -15,7 +15,7 @@ Indicators to be monitored:
 
 - CPU Average Utilization
 - Memory Utilization
-- Memory Utilization
+- Memory Usage
 
 #### **CPU Average Utilization**
 
