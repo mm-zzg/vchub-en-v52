@@ -6,17 +6,19 @@
 
  All tags are present in the asset and have real-time values. In addition, the asset can be bound to a history database, which is used to store and query the historical data of the tags.
 
+ The system provides two built-in Assets: Default and System.
+
+ ![alt text](8.png)
+
 ## **Asset Types**
 
-There are two types of assets to choose from : local assets, and remote assets.
+There are three types of assets to choose from : local assets, remote assets and System Asset.
 
 #### **Local Assets**
 
- Local assets are owned by the current VC Hub node, which has all configuration rights for local assets. A local asset named "Default" is automatically created for each new workspace, and the user can create as many assets as needed.
+ Local assets are owned by the current VC Hub node, which has all configuration rights for local assets. They are created by the users themselves. A local asset named "Default" is automatically created for each new workspace, and the user can create as many assets as needed.
 
 ![alt text](1.png)
-
-
 
 **Configuration items**
 
@@ -25,7 +27,7 @@ There are two types of assets to choose from : local assets, and remote assets.
 | Name              | The name of the asset, the name cannot be repeated, required.  |
 | Description       | Description of the asset,optional. |
 | Type              | The type of the asset,categorized into local and remote assets, the type cannot be changed after the asset is created.  |
-| History Storage   | When the asset type is set to 'local asset', it can be configured to bind to an existing historical database in the system. The selected historical database will store the real-time historical data of tags under this asset. Subsequent historical-related reads and writes of tags under this asset will be performed through this historical database. |
+| Historical Database   | When the asset type is set to 'local asset', it can be configured to bind to an existing historical database in the system. The selected historical database will store the real-time historical data of tags under this asset. Subsequent historical-related reads and writes of tags under this asset will be performed through this historical database. |
 
 #### **Remote Assets**
 
@@ -46,7 +48,14 @@ There are two types of assets to choose from : local assets, and remote assets.
 | Remote Node            | Configurable when the asset type is remote asset. Select the node name of other nodes that form a network with the current node.  |
 | Remote Asset Name       | Configurable when the asset type is Remote Asset. Displays all assets under the selected remote node.When a remote asset name is selected, all information under that remote asset name is displayed under the currently created asset name.  |
 | Show Advances Properties | By default, this option is not selected. When selected, the "History Database" configuration is displayed.<br> **Note:** Selecting or not selecting this option only controls the visibility of the history database configuration and does not indicate whether it is enabled or disabled. |
-| History Database         | Select a local history database. If the "remote history database" of the selected "remote asset" is stored on the current node, you can directly choose the history database here to enhance query performance. |
+| Historical Database         | Select a local history database. If the "remote history database" of the selected "remote asset" is stored on the current node, you can directly choose the history database here to enhance query performance. |
+
+#### **System Asset**
+
+A built-in system Asset. It can be found in the dropdown list in the Asset panel of the 2D Designer. It is used to view system information, such as user information, alarm information, and device connection status.
+
+![alt text](6.png)
+
 
 ## **How to use**
 
@@ -67,7 +76,7 @@ There are two types of assets to choose from : local assets, and remote assets.
 
 #### **Edit**
 
- Users can modify the asset information by clicking the "Modify" button on the right side of any asset in the asset list. Once an asset is created, its asset type cannot be modified.
+ Users can modify the asset information by clicking the "Edit" button on the right side of any asset in the asset list. Once an asset is created, its asset type cannot be modified.
 
 #### **Manage Tags**
 

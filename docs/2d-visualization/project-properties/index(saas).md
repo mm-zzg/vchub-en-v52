@@ -34,7 +34,7 @@ Sets the loading effect for the running page when navigating from Page1 to Page 
 
     | **Property**               | **Value**    |
     |----------------------------|-----------------------------------------------------|
-    | Running Page Loading Style | Enable.  |
+    | Running Page Loading Style | Enable  |
     | Loading Background Color   | 02023b      |
     | Loading Style              | ![alt text](4.png)|
 
