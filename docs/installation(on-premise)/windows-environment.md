@@ -14,19 +14,19 @@ Recommended Systems for Installation:
 ## **Installation Steps**
 
 1. Run the installation package program as an administrator.
-2. Select the installation language.<br>
+2. Select the installation language. <br>
       ![alt text](5.png)
 3. Perform a port check, if the port is occupied, the installation cannot proceed. <br>
       ![alt text](6.png)
-4. Read and accept the license agreement.<br>
+4. Read and accept the license agreement. <br>
       ![alt text](7.png)
-5. Choose the installation location; the default path is: "C:\Program Files\WAGO Visualization And Control Hub".<br>
+5. Choose the installation location; the default path is: "C:\Program Files\WAGO Visualization And Control Hub". <br>
       ![alt text](8.png)
-6. Select the VC Hub application data directory.<br>
+6. Select the VC Hub application data directory. <br>
       ![alt text](9.png)
-7. Prepare for installation.<br>
+7. Prepare for installation. <br>
       ![alt text](10.png)
-8. The installation is complete.<br>
+8. The installation is complete. <br>
       ![alt text](11.png)
 9. After completion, the default access to the VC Hub site is: `http://localhost:8066`. After the installation, you will enter the configuration wizard interface.
 
