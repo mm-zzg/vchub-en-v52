@@ -15,7 +15,7 @@ Recommended Systems for Installation:
 
 1. Run the installation package program as an administrator.
 2. Select the installation language. <br>
-      ![alt text](5.png)![alt text](image.png)
+   ![alt text](5.png)
 3. Perform a port check, if the port is occupied, the installation cannot proceed. <br>
       ![alt text](6.png)
 4. Read and accept the license agreement. <br>
