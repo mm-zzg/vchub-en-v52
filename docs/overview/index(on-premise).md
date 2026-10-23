@@ -19,7 +19,6 @@
 -  High Security: VC Hub provides excellent security, with features such as HTTPS support, encrypted storage, and certificate configuration, ensuring the confidentiality and integrity of data, thus providing a reliable industrial configuration solution.
 -  Flexible Networking: VC Hub supports flexible networking, making it easy to scale applications, ensuring that your industrial applications can seamlessly adapt to growth in demand and continue to provide efficient monitoring and control.
 -  Cross-platform: The fully cross-platform nature of VC Hub allows you to easily implement unified monitoring and control across different operating systems and devices, regardless of any on-site deployment conditions.
--  Localization: VC Hub supports main stream localized operating systems and chips, meeting the needs of domestic customers and providing more local support for industrial automation.
 -  3D Low-code Digital Twin Platform: VC Hub is low-code digital twin platform combines powerful digital modeling and low-code development capabilities, allowing users to easily create digital twin scenarios, simulate industrial processes, and rapidly develop 3D twin applications, providing faster innovation and responsiveness for industrial automation.
 
 

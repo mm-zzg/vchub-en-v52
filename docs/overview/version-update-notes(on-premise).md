@@ -14,6 +14,18 @@
 
 ## New Features
 
+#### 5.2.X
+
+- **AI Assistant:** VC Hub introduces an AI Assistant to simplify script development and visualization design. In the Script Editor, users can generate scripts by describing their requirements in natural language and providing relevant variable information. In the HTML Viewer control, the AI Assistant helps users quickly generate visually appealing runtime pages, making it easier to create customized interfaces with less manual effort.
+- **German Language Support:** VC Hub now supports German in addition to the existing system languages, providing a more localized user experience and better accommodating the language preferences of users in German-speaking regions.
+- **Enhance WAGO Protocol Compatibility:** VC Hub enhances WAGO Protocol compatibility by supporting hierarchical collections, custom commands, built-in WAGO Protocol commands, and communication with a handshake mechanism.
+- **Integrate with the Solutions Platform:** VC Hub can now be integrated into the WAGO Solutions Platform, enabling cloud-based deployment and centralized platform management. The integration supports tenant-aware application lifecycle management, identity and access configuration, and secure access within a multi-tenant environment, providing a foundation for delivering VC Hub as a SaaS solution.
+- **Workspace File Signing and Verification:** VC Hub supports signing and verifying workspace files to help ensure their authenticity and integrity. When importing a workspace, the system verifies its signature to detect unauthorized modifications or replacement. This mechanism supports secure workspace exchange both within the same system and across different system instances.
+- **SMS Abuse Prevention:** VC Hub improves SMS notification security by helping prevent SMS abuse and excessive usage. This helps reduce unexpected SMS costs, prevent SMS quota exhaustion caused by excessive alarm notifications, and ensure the reliable delivery of critical alarm messages.
+- **File Upload Size Limit:** VC Hub introduces file size limits for upload operations to prevent excessively large files from being uploaded, helping manage resource consumption and improve system stability.
+- **Complete Data Removal During Uninstallation:** VC Hub improves the uninstallation process by providing an option to remove the application’s data folder, including configuration files, cached data, logs, and downloaded assets. This helps users free up disk space, avoid configuration conflicts during reinstallation, and remove residual data when required.
+- **Login Attempt Delay:** VC Hub introduces a delay mechanism after repeated failed login attempts to help prevent brute-force attacks and enhance account security.
+
 #### 5.1.X
 
 - **Separate licensing for runtime and engineering users:** When a user logs in, distinguish whether they are an engineering user or a runtime  user. If the user is an engineering user, redirect them to the Admin Console page after login; if the user is a runtime user, display the runtime page.
