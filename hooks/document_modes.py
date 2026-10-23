@@ -4,12 +4,14 @@ from __future__ import annotations
 
 import logging
 import os
+import posixpath
 import re
 from collections import defaultdict
 from typing import Any
 
 from mkdocs.config.defaults import MkDocsConfig
 from mkdocs.exceptions import PluginError
+from mkdocs.plugins import event_priority
 from mkdocs.structure.files import File, Files
 
 _LOG = logging.getLogger("mkdocs.hooks.document_modes")
@@ -52,9 +54,12 @@ def on_config(config: MkDocsConfig) -> MkDocsConfig:
     return config
 
 
+@event_priority(100)
 def on_files(files: Files, *, config: MkDocsConfig) -> Files:
     """Map selected file and folder variants to their canonical paths."""
 
+    # Run before link plugins (such as ezlinks) cache source paths. Otherwise
+    # they can rewrite links to discarded variants or unrelated same-name assets.
     variants: dict[str, dict[str, File]] = defaultdict(dict)
 
     for file in list(files):
@@ -119,6 +124,38 @@ def on_files(files: Files, *, config: MkDocsConfig) -> Files:
         _active_mode,
     )
     return files
+
+
+def on_nav(nav: Any, *, config: MkDocsConfig, files: Files) -> Any:
+    """Let ezlinks resolve virtual canonical paths before fuzzy filename lookup."""
+
+    ezlinks = config.plugins.get("ezlinks")
+    if ezlinks is not None:
+        # ezlinks checks for direct links on disk, where canonical variant paths
+        # do not exist. Consult MkDocs' virtual files first, including on Windows
+        # where ezlinks' fuzzy directory matching uses inconsistent separators.
+        ezlinks.replacer.file_map = _CanonicalLinkMap(files, ezlinks.file_mapper)
+    return nav
+
+
+class _CanonicalLinkMap:
+    """Prefer exact virtual paths while retaining ezlinks' shorthand lookup."""
+
+    def __init__(self, files: Files, fallback: Any) -> None:
+        self.files = files
+        self.fallback = fallback
+
+    def search(self, from_file: str, file_path: str) -> str:
+        from_file = from_file.replace("\\", "/")
+        file_path = file_path.replace("\\", "/")
+        target = posixpath.normpath(
+            file_path.lstrip("/")
+            if file_path.startswith("/")
+            else posixpath.join(posixpath.dirname(from_file), file_path)
+        )
+        if self.files.get_file_from_path(target) is not None:
+            return os.path.join(self.fallback.root, target)
+        return self.fallback.search(from_file, file_path)
 
 
 def _resolve_variant(source_uri: str) -> tuple[str, str] | None:
