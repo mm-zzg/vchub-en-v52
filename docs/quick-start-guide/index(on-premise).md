@@ -66,7 +66,7 @@ The easiest way is to use a file transfer tool such as WinSCP or FileZilla.
 
 2. Select the installation language.
 
-3. Perform a port check, if the port is occupied, the installation cannot proceed.
+3. Perform a port check, if the port is occupied, the installation cannot proceed. <br>
   ![alt text](16.png)
 4. Read and accept the license agreement.
 
@@ -76,13 +76,13 @@ The easiest way is to use a file transfer tool such as WinSCP or FileZilla.
 
 7. The installation process will take a few minutes. 
 
-8. The installation is complete. Check the Checkbox as shown in the picture below, then click "Finish”. 
+8. The installation is complete. Check the Checkbox as shown in the picture below, then click "Finish”. <br>
    ![alt text](17.png)
-9. You will enter the process of creating the user interface. Create an administrator user. Remember this username and password, as you will use them to log in for the first time.
+9. You will enter the process of creating the user interface. Create an administrator user. Remember this username and password, as you will use them to log in for the first time. <br>
    ![alt text](18.png)
-10.	Port configuration.The VC Hub suggests ports 8066 and 10443 for the web interface.
+10.	Port configuration.The VC Hub suggests ports 8066 and 10443 for the web interface. <br>
    ![alt text](19.png)
-11.	After completing the above steps, wait for the program to load, and then you can log in to the default-created workspace with the user created in step 1.
+11.	After completing the above steps, wait for the program to load, and then you can log in to the default-created workspace with the user created in step 1. <br>
    ![alt text](20.png)
 
 **Notes:**
