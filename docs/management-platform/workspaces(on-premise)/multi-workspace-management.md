@@ -84,8 +84,12 @@ The user can click the **Import** button in the upper-right corner to import a p
 
 ![alt text](9.png)
 
-
 Select a local *.wsbk* file. If a password was set during export, you must enter the correct password to proceed with the import. Workspaces without a password can be imported directly.
+
+Users can choose whether to enable verify signature when importing a workspace.
+
+- When verify signature is enabled, VC Hub checks whether the project signing certificate configured on the current node's Certificate Management page matches the certificate used to sign the imported workspace. The import is allowed only if the certificates match; otherwise, the import is rejected.
+- When verify signature is disabled, VC Hub does not verify the signing certificate during import.
 
 Users can choose whether to retain the current system’s **node settings, redundancy** and **networking** information during import.
 
