@@ -34,7 +34,6 @@ Click the "Import" button in the upper right corner of the list to import the ex
 
 ![alt text](10.png)
 
-
 ## Batch Modification
 
 You can batch modify device information through the exported Excel. After making changes in the Excel, import it back. During the import, the data will be updated based on the name.

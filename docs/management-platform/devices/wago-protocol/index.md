@@ -15,12 +15,9 @@ VC Hub supports the following WAGO Protocol versions:
 2. Enter a device name that is unique in the device list.
 
     ![Add a WAGO Protocol device](1.png)
-
 3. Click **OK**. The **Device Credentials** window displays the generated username and password. The password is a random 10-character string containing letters and numbers.
+    ![alt text](11.png)
 4. Save the credentials before closing the window. The password cannot be viewed again after the window is closed.
-
-    ![Device Credentials window with the generated username, password, and one-time display message](11.png)
-
 5. The new device is disabled by default. Enable it using the status switch in the device list before connecting the PLC.
 
     ![A newly added device is disabled](2.png)
