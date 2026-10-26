@@ -11,6 +11,7 @@
 - [Scripts](../scripts/index.md): In relatively complex data processing scenarios, the user can edit JavaScript code through the script module to read and write values to some of the system data.
 - [Databases](../databases/index.md): Used to configure the connection information between the system and external databases, through which connection tags, alarm history data can be recorded into the databases supported by VC Hub, such as Influx DB, MySQL, etc.
 - [Security](../security/index.md): Configuration of roles and user information for individual workspaces, which is mainly used to manage the use of the system's functional privileges. The configuration of permissions only takes effect in the current workspace. In a multi-workspace scenario, each workspace will have a separate permission system.
+- [AI](../ai/index.md): Configure Models and Prompts for the AI Assistant. Models provide the AI capabilities, while Prompts define instructions for specific business scenarios. The configured Models and Prompts can be selected when using the AI Assistant.AI functionality can be used both when writing scripts and when generating screens using the HTML Viewer control.
 
 ## **Initial workspace**
 
