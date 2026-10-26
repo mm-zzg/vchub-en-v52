@@ -23,7 +23,7 @@ The **Client** directory contains Username and Role. **Read-only**, not editable
 
 The Server folder contains the following tags:
 
-![alt text](11.png)
+![alt text](15.png)
 
 The details are shown in the following table:
 
