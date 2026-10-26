@@ -6,13 +6,13 @@
 
 ## **Supported Device Types**
 
-- [Modbus TCP](modbus-tcp(on-premise)/index.md)
-- [Modbus RTU](modbus-rtu(on-premise)/index.md)
-- [OPC UA](opc-ua(on-premise)/index.md)
+- [Modbus TCP](modbus-tcp/index.md)
+- [Modbus RTU](modbus-rtu/index.md)
+- [OPC UA](opc-ua/index.md)
 - [MQTT Native](mqtt-native/index.md)
 - [MQTT SparkplugB](mqtt-sparkplugb/index.md)
-- [IEC104](iec104(on-premise)/index.md)
-- [SIEMENS S7](siemens-s7(on-premise)/index.md)
+- [IEC104](iec104/index.md)
+- [SIEMENS S7](siemens-s7/index.md)
 - [WAGO Protocol](wago-protocol/index.md)
 
 ![alt text](4.png)
