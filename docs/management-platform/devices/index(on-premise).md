@@ -14,7 +14,6 @@
 - [IEC104](iec104(on-premise)/index.md)
 - [SIEMENS S7](siemens-s7(on-premise)/index.md)
 - [WAGO Protocol](wago-protocol/index.md)
-- [IEC 104](iec104(on-premise)/index.md)
 
 ![alt text](4.png)
 
