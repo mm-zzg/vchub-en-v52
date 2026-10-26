@@ -281,7 +281,7 @@ firewall-cmd --list-ports
 
 **Node:** A node is an independent running instance of the VC Hub. Once the VC Hub is installed, it becomes a Node.
 
-**Workspace** An workspace can be understood as an independent configuration container used to host the complete system configuration for a specific application scenario.It centrally manages configurations such as projects, devices, tags, alarms, scripts, databases, and permissions.Different workspaces are isolated from each other, and only one engineering can be running at a time.
+**Workspace** An workspace can be understood as an independent configuration container used to host the complete system configuration for a specific application scenario. It centrally manages configurations such as projects, devices, tags, alarms, scripts, databases, and permissions.Different workspaces are isolated from each other, and only one engineering can be running at a time.
 
 **Project:** A Project represents a specific application scenario within the system. Each project can contain its own independent set of pages. All projects share the complete configuration of their associated workspace, including assets, devices, database connections, network settings, and other system-level configurations.
 
