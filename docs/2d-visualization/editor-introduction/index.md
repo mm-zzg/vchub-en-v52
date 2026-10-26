@@ -38,8 +38,6 @@ There is a toolbar at the top of the editor. When the mouse is placed over any b
 | ![alt text](50.png) | Adjust the width of multiple selected objects to be the same as that of the reference object  Reference object selection rules:  <br>1. **Ctrl + click selection**: The last selected object is used as the reference. <br>2. **Mouse marquee selection**: The topmost object in the layer order is used as the reference  |![alt text](49.png) |Click to open the preview in a new browser window.|
 | ![alt text](51.png) | Adjust the height of multiple selected objects to be the same as that of the reference object  Reference object selection rules:  <br>1. **Ctrl + click selection**: The last selected object is used as the reference. <br>2. **Mouse marquee selection**: The topmost object in the layer order is used as the reference | | |
 
-
-
 ## **View Menu**
 
 The editor comes with a number of windows. You can check which window you want to open and adjust the display position and size of the window according to your usage habits. 
