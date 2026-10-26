@@ -6,7 +6,7 @@
 
 ## **Supported Device Types**
 
-- [Modbus TCP](modbus-tcp/index.md)
+- [Modbus TCP](modbus-tcp(on-premise)/index.md)
 - [Modbus RTU](modbus-rtu/index.md)
 - [OPC UA](opc-ua/index.md)
 - [MQTT Native](mqtt-native/index.md)
