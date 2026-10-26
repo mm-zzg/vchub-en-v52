@@ -6,17 +6,11 @@
 
 ## **Supported Device Types**
 
-- [Modbus TCP](modbus-tcp/index.md)
-- [Modbus RTU](modbus-rtu/index.md)
-- [OPC UA](opc-ua/index.md)
 - [MQTT Native](mqtt-native/index.md)
 - [MQTT SparkplugB](mqtt-sparkplugb/index.md)
-- [IEC104](iec104/index.md)
-- [SIEMENS S7](siemens-s7/index.md)
 - [WAGO Protocol](wago-protocol/index.md)
-- [IEC 104](iec104/index.md)
 
-![alt text](1.png)
+![alt text](3.png)
 
 
 ## **How do I get data from my PLC?**

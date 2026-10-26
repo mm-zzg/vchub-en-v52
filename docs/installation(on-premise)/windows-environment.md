@@ -36,7 +36,9 @@ Recommended Systems for Installation:
       ![alt text](12.png)
 2. Port configuration, configure HTTP, HTTPS ports, and remember the access port. 
       ![alt text](13.png)
-3. After completing the above steps, wait for the program to load, and then you can log in to the default-created workspace with the user created in step 1.
+3. Configure HTTPS Connection and Certificate
+      ![alt text](53.png)
+4. After completing the above steps, wait for the program to load, and then you can log in to the default-created workspace with the user created in step 1.
 
 **Note**:
 
