@@ -51,8 +51,6 @@ The credentials window contains only new devices whose passwords were generated 
 
 **All devices added or updated by import are disabled afterward.** Updating an existing device also disconnects its current PLC session. Re-enable it after import; if its password changed, update the PLC connection settings before reconnecting. Devices not included in the file are unaffected.
 
-![Example of imported devices in the disabled state](9.png)
-
 ## Batch Modification
 
 Export the devices, edit the required rows, and re-import the file. Devices are matched by **DeviceName**:
@@ -67,6 +65,6 @@ To retain existing passwords, leave the Password cells empty. To replace selecte
 
 Disable the devices to be deleted, select them on the current page, and click **Delete** above the list.
 
-![Select disabled devices for batch deletion](10.png)
+![alt text](10.png)
 
 Enabled devices cannot be selected for deletion. Batch selection is limited to the current page; repeat the operation on other pages if needed.
