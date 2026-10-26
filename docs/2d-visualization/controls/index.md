@@ -27,6 +27,7 @@ To apply animation effects such as rotation to these controls, configure animati
 **Display**  
 
 - [3D Viewer](display/3d-viewer.md)
+- [Html Viewer](display/html-viewer.md)
 - [IFrame](display/iframe.md) 
 - [Label](display/label.md) 
 - [LED Display](display/led-display.md) 
@@ -71,8 +72,10 @@ To apply animation effects such as rotation to these controls, configure animati
 
 - [Historical Data Table](table/historical-data-table.md) 
 - [Report Viewer](table/report-viewer.md) 
+- [Select Execute Command](table/select-execute-command.md)
 - [Table](table/table.md) 
 - [Tag List](table/tag-list.md)
+
  
 
  

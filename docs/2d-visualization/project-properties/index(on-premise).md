@@ -6,7 +6,6 @@ Click the Settings button on the menu bar to set properties.
 
 ![alt text](1.png)
 
-
 | **Name**                   | **Description**  |
 |----------------------------|---------------------------------------|
 | Project Name               | Displays the name of the current project.  |
