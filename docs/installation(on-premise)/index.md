@@ -112,7 +112,7 @@ VC Hub uses a version structure: "Major Version. Minor Version. Revision Version
 
 ## **Uninstallation**
 
-The user data directory and the installation program directory are independent. Uninstalling will not delete user data. If necessary, you can manually delete the user data directory.
+The user data directory and the installation program directory are independent. During uninstallation, you can choose whether to remove the data directory along with the application.
 
 ## **Upgrade**
 

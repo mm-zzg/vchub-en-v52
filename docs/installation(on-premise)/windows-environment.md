@@ -104,8 +104,10 @@ TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384,TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256,TLS_
 
 1. Enter the software uninstall list from the Control Panel. Find VC Hub and proceed with the uninstallation.
       ![alt text](15.png)
-2. Confirm the uninstallation to complete the removal of the application.
-      ![alt text](16.png)
+2. Confirm the uninstallation to complete the removal of the application.<br>
+   "Remove all VC Hub data" is not checked by default. If checked, all data in the data directory will be deleted.<br>
+      ![alt text](16.png)<br>
+3. Click "Yes" to proceed with the deletion operation.
 
 
 
