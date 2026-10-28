@@ -1,4 +1,4 @@
-# AI Assistant for Script Generation
+# Using the AI Assistant
 
 The AI Assistant in the Script Editor helps you generate scripts based on natural language instructions. You can also provide additional context, such as tags, SQL Queries, and documents, to help the AI Assistant understand your requirements.
 
@@ -12,13 +12,14 @@ The Script Editor consists of two areas: the script editing area on the left and
 
 At the bottom of the AI Assistant area, the message input field allows you to enter instructions and add contextual information. The selected context items are displayed above the input field. Use the arrow buttons to browse the items, or click the context overview button to view all added items.
 
-![alt text](34.png)
+![alt text](20.png)
 
 
 | **Button**   | **Description**  |
 |------------|---------------|
 | ![alt text](22.png)       |  Upload files or add text and document content to provide additional context for the AI Assistant. |
 | ![alt text](23.png)    | Select tags from the current system. The selected tags can be referenced in the generated content.|
+| ![alt text](24.png)     | Select SQL Queries that have already been created in the current project to provide context for script generation. |
 | ![alt text](25.png)  | Send the message and the associated context to the AI Assistant to generate a script.  |
 
 The added context items are displayed above the message input field. Use the left and right arrow buttons to browse the items. Click the button on the far left ![alt text](27.png) to view all added context items.
@@ -27,7 +28,7 @@ The added context items are displayed above the message input field. Use the lef
 
 Clicking the button on the far left ![alt text](27.png) opens a panel on the right, displaying all added context items.
 
-![alt text](35.png)
+![alt text](28.png)
 
 After adding the required context, enter a natural language description of the functionality you want to implement in the message input field. Click the Send button to submit your request. The AI Assistant generates the script in the conversation area.
 

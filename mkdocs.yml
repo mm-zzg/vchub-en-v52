@@ -302,7 +302,7 @@ nav:
                             - management-platform/scripts/custom-function.md
                             - management-platform/scripts/schedule.md
                             - management-platform/scripts/log-configuration.md
-                            - management-platform/scripts/ai-assistant-for-script-generation.md
+                            - management-platform/scripts/using-the-ai-assistant.md
                   - Networking:
                             - management-platform/networking/index.md
                   - Databases:
