@@ -43,7 +43,8 @@ Clicking the button on the far left ![alt text](99.png) opens a panel on the rig
 
 After adding the required context, enter a natural language description of the functionality you want to implement in the message input field. Click the Send button to submit your request. The AI Assistant generates the script in the conversation area.
 
-!!! Note:
+!!! Note
+
     AI-generated content may be inaccurate, incomplete, or unsafe. Review the generated content carefully before using it.
 
 **Example: Motor Monitoring Dashboard**
