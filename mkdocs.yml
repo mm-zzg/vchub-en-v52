@@ -433,6 +433,7 @@ nav:
                                       - 2d-visualization/controls/display/page-container.md
                                       - 2d-visualization/controls/display/3d-viewer.md
                                       - 2d-visualization/controls/display/ruler.md
+                                      - 2d-visualization/controls/display/html-viewer.md
                             - Button:
                                       - 2d-visualization/controls/button/index.md
                                       - 2d-visualization/controls/button/button.md
