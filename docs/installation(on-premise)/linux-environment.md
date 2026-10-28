@@ -82,7 +82,8 @@ Linux ports below 1024 require additional operating-system permission. Use a por
    ![alt text](27.png) 
 3. Run the script "`wagovisualizationandcontrolhub-uninstall.sh`".
    ![alt text](28.png)
-4. After these operations, all program-related files will be removed, and the process supervisory service will also be removed.
+4. Choose whether to delete all data, including the data in the data directory.
+5. Perform the uninstallation operation.
 
 **Notes:**  
 

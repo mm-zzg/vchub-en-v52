@@ -25,6 +25,13 @@
 - **File Upload Size Limit:** VC Hub introduces file size limits for upload operations to prevent excessively large files from being uploaded, helping manage resource consumption and improve system stability.
 - **Complete Data Removal During Uninstallation:** VC Hub improves the uninstallation process by providing an option to remove the application’s data folder, including configuration files, cached data, logs, and downloaded assets. This helps users free up disk space, avoid configuration conflicts during reinstallation, and remove residual data when required.
 - **Login Attempt Delay:** VC Hub introduces a delay mechanism after repeated failed login attempts to help prevent brute-force attacks and enhance account security.
+- **Password Policy Enhancement:** VC Hub introduces configurable password policies to strengthen password security and improve account protection.
+- **Upgrade AR Report to Version 20:** VC Hub upgrades AR Report to version 20 to improve compatibility and maintain the reporting component.
+- **Associate System Logs with Devices:** VC Hub enhances system logging by associating system logs with the corresponding devices, making it easier to identify device-related events and troubleshoot issues.
+- **Decouple Tags from the 2D Designer:** VC Hub decouples tag management from the 2D Designer, allowing tags to be managed independently of the 2D design environment.
+- **EMS License Management:** VC Hub now supports EMS license management, allowing users to activate EMS licenses directly in VC Hub.
+- **WALM Support:** VC Hub now supports WALM as an additional drive type, expanding the range of supported drive types for EMS applications.
+- **Login Attempt Delay:** VC Hub introduces a delay after repeated failed login attempts to help prevent brute-force attacks and enhance account security.
 
 #### 5.1.X
 

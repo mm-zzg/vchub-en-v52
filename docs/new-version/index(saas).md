@@ -40,6 +40,15 @@ You can execute these commands in the control's Event configuration.
 
 These enhancements expand the range of supported WAGO Protocol configurations and provide greater flexibility when integrating devices and implementing communication workflows.
 
+## Upgrade AR Report to Version 20
+
+VC Hub upgrades AR Report to version 20 to improve compatibility and maintain the reporting component.
+
+## Decouple Tags from the 2D Designer
+
+VC Hub improves asset and tag management by separating tag maintenance from the 2D Designer. Previously, users had to create the asset tree in the Admin Console and then manage tags in the Asset window of the 2D Designer, which provided limited space for tag operations. This enhancement makes tag management more independent and convenient.
+
+
 
 
 

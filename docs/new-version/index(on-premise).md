@@ -51,7 +51,6 @@ If the signature cannot be verified or the signing certificate is not trusted or
 
 This mechanism helps prevent unauthorized workspace modifications and supports secure workspace exchange both within the same system and between different system instances.
 
-
 ## SMS Abuse Prevention
 
 VC Hub enhances the security of SMS alarm notifications to help reduce the risk of excessive SMS usage and misuse of external SMS providers.
@@ -83,3 +82,33 @@ VC Hub introduces a delay mechanism after repeated failed login attempts to stre
 When multiple consecutive login attempts fail, the system applies a delay before allowing subsequent login attempts. This makes automated password-guessing attacks more difficult and helps protect user accounts against unauthorized access.
 
 The mechanism adds an additional layer of security to the login process while preserving the normal authentication workflow for legitimate users.
+
+## Password Policy Enhancement
+
+VC Hub introduces configurable password policies, including password expiration, minimum password length, password complexity, and password history, to strengthen password security and improve account protection.
+
+## Upgrade AR Report to Version 20
+
+VC Hub upgrades AR Report to version 20 to improve compatibility and maintain the reporting component.
+
+## Associate System Logs with Devices
+
+VC Hub enhances system logging by associating system logs with the corresponding devices, making it easier to identify device-related events and troubleshoot issues.
+
+## Decouple Tags from the 2D Designer
+
+VC Hub improves asset and tag management by separating tag maintenance from the 2D Designer. Previously, users had to create the asset tree in the Admin Console and then manage tags in the Asset window of the 2D Designer, which provided limited space for tag operations. This enhancement makes tag management more independent and convenient.
+
+## EMS License Management
+
+VC Hub now supports EMS license management, allowing users to activate EMS licenses directly in VC Hub.
+
+## WALM Support
+
+VC Hub now supports WALM as an additional drive type, expanding the range of supported drive types for EMS applications.
+
+
+
+
+
+
