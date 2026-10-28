@@ -17,7 +17,7 @@ The HTML Viewer displays the runtime page generated from HTML code. The HTML cod
 
 ## **Script Editor**
 
-![alt text](90.png)
+![alt text](106.png)
 
 The Script Editor consists of two areas: the script editing area on the left and the AI Assistant area on the right.
 
@@ -35,11 +35,11 @@ At the bottom of the AI Assistant area, the message input field allows you to en
 
 The added context items are displayed above the message input field. Use the left and right arrow buttons to browse the items. Click the button on the far left ![alt text](99.png) to view all added context items.
 
-![alt text](98.png)
+![alt text](107.png)
 
 Clicking the button on the far left ![alt text](99.png) opens a panel on the right, displaying all added context items.
 
-![alt text](100.png)
+![alt text](108.png)
 
 After adding the required context, enter a natural language description of the functionality you want to implement in the message input field. Click the Send button to submit your request. The AI Assistant generates the script in the conversation area.
 
@@ -77,21 +77,24 @@ Create a dark-themed energy management dashboard for an industrial facility. Sho
 
 **Step 4:** The AI Assistant automatically generates HTML code based on your prompt.
 
-![alt text](101.png)
+![alt text](109.png)
 
 **Step 5:** Review the generated code. If it meets your requirements, click Apply to Editor to insert the HTML code into the editor on the left.
 
-![alt text](102.png)
+![alt text](110.png)
 
 **Step 6:** Click Preview in the bottom-right corner of the window to preview the generated page.
 
-![alt text](103.png)
+![alt text](111.png)
 
 ![alt text](104.png)
 
 **Step 7:** If the page does not meet your requirements, refine your prompt and generate new code. Repeat the process until the page meets your requirements, then click Save.
 
-![alt text](105.png)
+![alt text](112.png)
 
 **Step 8:** Save the page to complete the process.
 
+!!! Note
+
+    Previous conversation history is not retained when you close and reopen the editor.
