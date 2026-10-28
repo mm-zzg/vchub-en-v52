@@ -8,7 +8,7 @@ These scripts can be categorized into three types based on how they are executed
 2. Periodical
 3. Schedule
 
-![alt text](2.png)
+![alt text](19.png)
 
 ## Add Scripts
 
@@ -18,16 +18,16 @@ Tag changed are scripts that are executed when the conditions selected in a trig
 
 On the "**Scripts**" -> "**Service Script**" screen, click the "**Tag Changed**" tab, and then click the "Add" button at the upper-right corner of the list to create the script.
 
-![alt text](3.png)
+![alt text](2.png)
 
-| **Property** | **Description**                                                                                                                                                                                                                                                           |
-|--------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Name         | The name of the script.                                                                                                                                                                                                                                                   |
-| Tag List     | The tag to be bound.                                                                                                                                                                                                                                                      |
+| **Property** | **Description**                      |
+|--------------|--------------------------------------|
+| Name         | The name of the script.   |
+| Tag List     | The tag to be bound.  |
 | Trigger      | Used to set what conditions trigger this script to contain:  <br>- **Value Changed**: the script will be triggered when the value of any tag in the tag list changes. <br>- **Timestamp Changed**: The script is triggered when the timestamp of any tag in the tag list changes. |
-| Timezone     | Sets the time zone according to which the script is executed.                                                                                                                                                                                                             |
-| Record Log   | Whether to record script logs.                                                                                                                                                                                                                                            |
-| Script       | Write a script to be executed.                                                                                                                                                                                                                                            |
+| Timezone     | Sets the time zone according to which the script is executed.   |
+| Record Log   | Whether to record script logs.         |
+| Script       | Write a script to be executed.   |
 
 New scripts are disabled by default, you need to enable them manually to execute the scripts.
 
@@ -45,7 +45,7 @@ Periodical scripts are scripts that are triggered at a set frequency and execute
 
 On the "**Scripts**" -> "**Service Script**" page, click the "Periodical" tab, and then click the "Add" button on the upper right corner of the list. 
 
-| **Attribute**  | **Description**                                               |
+| **Property**  | **Description**                                               |
 |----------------|---------------------------------------------------------------|
 | Name           | The name of the script.                                       |
 | Frequency (ms) | How often the script is executed.                             |
