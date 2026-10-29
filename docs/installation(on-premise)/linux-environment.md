@@ -5,10 +5,12 @@ VC Hub provides a self-extracting installation package for 64-bit Linux. The pac
 ## **Installation Steps** 
 
 1. **Prepare the installation package.** 
+
     Copy the installation package to the Linux server and open a terminal in the directory containing it.
 
 2. **Run the installer.** 
-    Grant execute permission to the package and run it with `sudo`. Replace `<installer-file>.run` below with the actual package file name.
+
+    Grant execute permission to the package and run it with `sudo`. <br>Replace `<installer-file>.run` below with the actual package file name.
 
     ```bash
     chmod u+x "<installer-file>.run"
@@ -18,6 +20,7 @@ VC Hub provides a self-extracting installation package for 64-bit Linux. The pac
     The package verifies its archive integrity and extracts the installation files before starting the interactive installer.
 
 3. **Select the installation language.** 
+
     Select the installation language at the `Install in English? [Y/n]:` prompt. Enter `y` for English or `n` for Chinese.
 
     For yes/no prompts, the uppercase letter is the default when you press **Enter**: `[Y/n]` defaults to Yes, and `[y/N]` defaults to No.
@@ -38,6 +41,7 @@ VC Hub provides a self-extracting installation package for 64-bit Linux. The pac
     Use a dedicated data directory separate from the application directory. A new data location should be empty or already contain VC Hub data. Selecting a different directory does not automatically move data from the previous location.
 
 6. **Review and confirm the installation configuration.**
+
     Review the installation configuration, including the full application path, data path, whether existing data is reused, and system service name.
 
     If the application directory is not empty, the installer asks for confirmation before displaying the summary. Continuing can overwrite files and change their ownership and permissions. Confirm only if this directory is dedicated to VC Hub.
@@ -45,6 +49,7 @@ VC Hub provides a self-extracting installation package for 64-bit Linux. The pac
     At `Continue with installation? [Y/n]:`, enter `y` or press **Enter** to proceed. Enter `n` to cancel.
 
 7. **Complete the installation.**
+
     Wait while the installer prepares the directories, stops any existing service, installs and configures the application, configures file access, registers the system service, and starts and verifies the service.
 
     The current standard installer displays seven progress steps with `[OK]` or `[FAILED]` status indicators. A spinner is also displayed when the terminal supports it.
@@ -56,6 +61,7 @@ VC Hub provides a self-extracting installation package for 64-bit Linux. The pac
     ![Complete Linux installation process, from starting the installer to the completion summary](54.png)
 
 8. **Access to VC Hub.**
+
     Open `http://localhost:8066` in a browser on the Linux server. To access VC Hub from another computer, use `http://<server-address>:8066` and ensure the server allows access to that port. Complete the configuration wizard described in **Configuration** below when it is displayed.
 
 **Notes:** 
