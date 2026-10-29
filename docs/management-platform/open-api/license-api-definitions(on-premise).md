@@ -1,4 +1,4 @@
-# License API Definitions (On-Premise)
+# License API Definitions
 
 ## WAGOEmsLicense /ws/v1/node
 
@@ -18,7 +18,7 @@ Response Payload(JsonObject):
 | timestamp | String | The response timestamp in UTC. |
 | nonce | String | A unique identifier for the response. |
 
-LicenseItem:
+License Item:
 
 | Name | Type | Description |
 |------|------|-------------|
