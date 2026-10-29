@@ -4,10 +4,10 @@ VC Hub provides a self-extracting installation package for 64-bit Linux. The pac
 
 ## **Installation Steps** 
 
-1. **Prepare the installation package.** <br>
+1. **Prepare the installation package.** 
     Copy the installation package to the Linux server and open a terminal in the directory containing it.
 
-2. **Run the installer.** <br>
+2. **Run the installer.** 
     Grant execute permission to the package and run it with `sudo`. Replace `<installer-file>.run` below with the actual package file name.
 
     ```bash
@@ -17,7 +17,7 @@ VC Hub provides a self-extracting installation package for 64-bit Linux. The pac
 
     The package verifies its archive integrity and extracts the installation files before starting the interactive installer.
 
-3. **Select the installation language.** <br>
+3. **Select the installation language.** 
     Select the installation language at the `Install in English? [Y/n]:` prompt. Enter `y` for English or `n` for Chinese.
 
     For yes/no prompts, the uppercase letter is the default when you press **Enter**: `[Y/n]` defaults to Yes, and `[y/N]` defaults to No.
