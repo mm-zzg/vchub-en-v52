@@ -167,6 +167,12 @@ markdown_extensions:
 not_in_nav: |
         /tutorials/**/*.md
 
+# Temporarily hide the non-privileged account guide while keeping its source.
+# Include physical and canonical paths for the on-premise document-mode mapping.
+exclude_docs: |
+        /installation(on-premise)/setup-service-running-user.md
+        /installation/setup-service-running-user.md
+
 # Page tree
 nav:
         - Overview:
@@ -181,7 +187,7 @@ nav:
                   - installation/windows-environment.md
                   - installation/linux-environment.md
                   - installation/typical-architecture-selection-guide.md
-                  - installation/setup-service-running-user.md
+                  # - installation/setup-service-running-user.md
                   - installation/branding-and-theming.md
         - Quick Start:
                   - quick-start-guide/index.md

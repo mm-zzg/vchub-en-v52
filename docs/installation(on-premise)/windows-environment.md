@@ -44,6 +44,9 @@ Recommended Systems for Installation:
 
 After each installation, a new empty workspace will be created by default. To return to the original workspace, you need to log in to the new workspace first and then manually open the original workspace from the workspace list.
 
+<!--
+Temporarily hidden: non-privileged service accounts are not enabled in the current standard release.
+
 ## **Service Security**
 
 The installer automatically configures the VC Hub Windows service to run under the dedicated virtual service account `NT SERVICE\WAGO_Visualization_And_Control_Hub`. It also grants the service only the application and data directory permissions required at runtime.
@@ -51,6 +54,8 @@ The installer automatically configures the VC Hub Windows service to run under t
 Do not create a regular local user for the service, change the service to run as `LocalSystem`, or grant it administrator privileges.
 
 For details and verification steps, see [VC Hub Service Account and File Permissions](setup-service-running-user.md).
+
+-->
 
 ## **TLS Cipher Suite Hardening (Recommended)**
 
