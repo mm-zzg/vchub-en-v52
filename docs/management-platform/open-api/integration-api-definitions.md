@@ -1,4 +1,4 @@
-# Integration API definitions
+# Integration API Definitions
 
 ## POST /api/v1/scripts/execute
 
