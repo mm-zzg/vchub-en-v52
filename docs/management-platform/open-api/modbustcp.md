@@ -28,7 +28,7 @@ Protocol: Https
 Request Payload:
 
 | Name       | Type      | Description   |
-|------------|-----------|---------------|
+|------------|-----------|---------------|  
 | id | String    | id of device |
 | name |String   | name of device |
 |ipAddress | string |  ip or domain name |
