@@ -38,6 +38,39 @@ Recommended Systems for Installation:
       ![alt text](13.png)
 3. Configure HTTPS Connection and Certificate
       ![alt text](53.png)
+
+      **HSTS Configuration Considerations**
+
+      When using a self-signed certificate, it is recommended not to enable HSTS. 
+
+      HSTS instructs browsers to always use HTTPS for the corresponding domain. If the certificate is not trusted by the browser, HSTS may prevent users from accessing VC Hub, even after uninstalling and reinstalling the application, because the HSTS policy may remain stored in the browser.
+
+      The same issue may occur when users upload their own certificates if the certificates are not trusted by the browser.
+
+      **Clearing HSTS Settings in the Browser**
+
+      If VC Hub becomes inaccessible due to a cached HSTS policy, you may need to manually clear the HSTS settings in your browser.
+
+      For Microsoft Edge:
+
+      1. Open chrome://net-internals/#hsts in the address bar.
+
+      2. Under Delete domain security policies, enter the VC Hub domain name.
+
+      3. Click Delete to remove the stored HSTS policy.
+
+      4. Restart the browser and try accessing VC Hub again.
+
+      For Google Chrome:
+
+      1. Open chrome://net-internals/#hsts in the address bar.
+
+      2. Under Delete domain security policies, enter the VC Hub domain name.
+
+      3. Click Delete to remove the stored HSTS policy.
+
+      4. Restart the browser and try accessing VC Hub again.
+
 4. After completing the above steps, wait for the program to load, and then you can log in to the default-created workspace with the user created in step 1.
 
 **Note**:
