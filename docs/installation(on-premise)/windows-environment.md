@@ -53,7 +53,7 @@ Recommended Systems for Installation:
 
       For Microsoft Edge:
 
-      1. Open chrome://net-internals/#hsts in the address bar.
+      1. Open edge://net-internals/#hsts in the address bar.
 
       2. Under Delete domain security policies, enter the VC Hub domain name.
 
