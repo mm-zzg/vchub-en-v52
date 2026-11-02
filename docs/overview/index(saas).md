@@ -1,11 +1,14 @@
 
 # Product Overview
 
-**What is WAGO Visualization and Control Hub?**
+**What is Visualization And Control Hub Cloud Edition?**
 
- WAGO Visualization and Control Hub ("VC Hub" for short) is a SCADA product developed and marketed by WAGO. It is fully based on modern web technology, which allows you to easily use VC Hub to quickly build various complex field configuration applications. Whether on-premises or in the cloud, VC Hub enables you to monitor and control the entire industrial process in real-time from any location, ensuring continuity in production and enhancing efficiency. VC Hub also supports large-scale field configuration projects, allowing you to collect a vast amount of industrial data and gain in-depth insights through the built-in reporting tools, which helps further optimize production decisions. With no restrictions on the number of users and device connections, VC Hub is an economical choice suitable for industrial configuration projects of all sizes.
+WAGO Visualization And Control Hub Cloud Edition ("VC Hub" for short) is a cloud-based application for creating, managing and operating industrial visualizations within the WAGO Solutions Platform.
 
- VC Hub is committed to providing efficient and convenient solutions for your industrial configuration field.
+The solution enables users to centrally deploy and manage visualization projects, monitor assets in real time and access operational information across machines, systems and locations. Built for scalable industrial environments, the VC Hub simplifies engineering workflows, accelerates deployment and provides secure remote access to critical operational data.
+
+By combining visualization, monitoring and control capabilities in a single environment, organizations can increase transparency, improve operational efficiency and reduce maintenance effort. The VC Hub integrates seamlessly with WAGO automation solutions and provides the foundation for modern, connected industrial operations.
+
 
 **Features of VC Hub**
 
@@ -15,6 +18,14 @@
 -  High Security: VC Hub leverages the security capabilities of the underlying cloud platform to enhance system protection and help safeguard applications and data against unauthorized access.
 -  Mobile Support: VC Hub supports mobile devices, allowing you to easily access and control functions anytime, anywhere through smart phones and tablets, for more real-time management of your industrial field.
 -  3D Low-code Digital Twin Platform: VC Hub is low-code digital twin platform combines powerful digital modeling and low-code development capabilities, allowing users to easily create digital twin scenarios, simulate industrial processes, and rapidly develop 3D twin applications, providing faster innovation and responsiveness for industrial automation.
+
+**Seamless WAGO Integration**
+
+Integrate with WAGO controllers and edge solutions to connect automation systems with visualization and monitoring applications. Native support for WAGO technologies simplifies data exchange and helps users build integrated solutions within the WAGO ecosystem.
+
+**Cloud-Ready Infrastructure**
+
+VC Hub is delivered as a managed service within the WAGO Solutions Platform. The platform provides centralized subscription and instance management, allowing customers to access Visualization And Control Hub without managing the underlying application infrastructure themselves. This reduces infrastructure administration effort and simplifies the deployment and operation of cloud-based applications.
 
 
 **Web-based Implementation**
