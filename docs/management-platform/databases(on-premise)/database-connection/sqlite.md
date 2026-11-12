@@ -15,7 +15,7 @@ On this page, we will demonstrate how to connect VC Hub to SQLite.
     ![alt text](17.png)
 
      - Name: Demo
-     - Storage Path: {WorkspaceDirectoy}/database/history 
+     - Storage Path: {WorkspaceDirectory}/database/history 
      - Database name: history
      - Connection timeout(ms): 10000
      - Maximum Query Points：1000000
