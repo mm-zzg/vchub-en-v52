@@ -139,6 +139,6 @@ Linux installation environment user data directory: /usr/share/wagovisualization
 ![alt text](4.png)
 
 
-**Linux environment**: `sudo systemctl restart virtualiztionandcontrolhub`
+**Linux environment**: `sudo systemctl restart visualizationandcontrolhub`
 
-And you can also stop the service first: `sudo systemctl stop virtualiztionandcontrolhub` and then start the service: `sudo systemctl start virtualiztionandcontrolhub`
+And you can also stop the service first: `sudo systemctl stop visualizationandcontrolhub` and then start the service: `sudo systemctl start visualizationandcontrolhub`
