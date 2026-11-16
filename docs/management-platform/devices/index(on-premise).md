@@ -11,6 +11,7 @@
 - [OPC UA](opc-ua/index.md)
 - [MQTT Native](mqtt-native/index.md)
 - [MQTT SparkplugB](mqtt-sparkplugb/index.md)
+- [WALM](walm/index.md)
 - [IEC104](iec104/index.md)
 - [SIEMENS S7](siemens-s7/index.md)
 - [WAGO Protocol](wago-protocol/index.md)

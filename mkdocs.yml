@@ -231,6 +231,9 @@ nav:
                             - MQTT SparkplugB:
                                       - management-platform/devices/mqtt-sparkplugb/index.md
                                       - management-platform/devices/mqtt-sparkplugb/batch-operation.md
+                            - WALM:
+                                      - management-platform/devices/walm/index.md
+                                      - management-platform/devices/walm/batch-operation.md
                             - SIEMENS S7:
                                       - management-platform/devices/siemens-s7/index.md
                                       - management-platform/devices/siemens-s7/batch-operation.md
