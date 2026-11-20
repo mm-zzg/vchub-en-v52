@@ -205,7 +205,7 @@ The following features require separate Add-on licenses:
 
 ### WAGO EMS Licenses
 
-WAGO EMS licenses define the maximum energy capacity managed by the WAGO Energy Management System (WEMS).
+WAGO EMS licenses define the maximum energy capacity managed by the WAGO Energy Management System (WAGO EMS).
 
 There are 3 different license capacities available. You can determine the license to purchase based on your specific situation.
 
