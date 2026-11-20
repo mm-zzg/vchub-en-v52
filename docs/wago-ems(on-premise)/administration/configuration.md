@@ -65,7 +65,6 @@ Connection Enabled: Toggle switch. Green indicates Enabled (On), while gray indi
 Users can copy the url from VC Hub, replace "designer" to "runtime", append "/" Page name
 ![alt text](10.png)
 
-### 2.2 Backup Node Settings
 
 
 
