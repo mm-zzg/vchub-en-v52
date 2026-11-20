@@ -674,6 +674,31 @@ nav:
                                                 - 3d-visualization/3d-low-code-example/object-models-in-the-scene/text-annotation/fontsize.md
                                                 - 3d-visualization/3d-low-code-example/object-models-in-the-scene/text-annotation/height.md
                                                 - 3d-visualization/3d-low-code-example/object-models-in-the-scene/text-annotation/text.md
+        - WAGO EMS:
+                  - Overview:
+                            - wago-ems/index.md
+                            - wago-ems/overview/purpose-of-wago-ems.md
+                            - wago-ems/overview/architecture.md
+                            - wago-ems/overview/main-functions.md
+                            - wago-ems/overview/integration-into-vc-hub.md
+                  - wago-ems/security.md
+                  - wago-ems/requirements.md
+                  - wago-ems/installation-and-upgrade.md
+                  - Getting Started:
+                            - wago-ems/getting-started/index.md
+                            - wago-ems/getting-started/login.md
+                            - wago-ems/getting-started/user-interface-overview.md
+                            - wago-ems/getting-started/dashboard-overview.md
+                  - Core Functions:
+                            - wago-ems/core-functions/index.md
+                            - wago-ems/core-functions/peak-load-management.md
+                            - wago-ems/core-functions/surplus-management.md
+                            - wago-ems/core-functions/microgrid-components.md
+                            - wago-ems/core-functions/constraints.md
+                  - Administration:
+                            - wago-ems/administration/index.md
+                            - wago-ems/administration/configuration.md
+                            - wago-ems/administration/notifications.md
         - Appendix:
                   - appendix/index.md
                   - System Function:
