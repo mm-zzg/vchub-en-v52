@@ -50,11 +50,12 @@ A new trial license always resets the remaining trial period to **30 days**, reg
 
 ## Product Licenses
 
-Product licenses are divided into three categories:
+Product licenses are divided into four categories:
 
 - I/O Tag License
 - Concurrent Online User License
 - Add-on License
+- WAGO EMS License
 
 ### I/O Tag License
 
@@ -201,6 +202,24 @@ The following features require separate Add-on licenses:
      ![](2026-07-02-11-22-45.png)
 
      ![](2026-07-02-11-22-50.png)
+
+### WAGO EMS Licenses
+
+WAGO EMS licenses define the maximum energy capacity managed by the WAGO Energy Management System (WEMS).
+
+There are 3 different license capacities available. You can determine the license to purchase based on your specific situation.
+
+- WAGO EMS - S: up to 1 MWh
+- WAGO EMS - M: up to 2 MWh
+- WAGO EMS - L: up to 5 MWh
+
+**Notes:**
+
+1. License capacities **cannot be accumulated**.
+2. Select a license whose capacity is **greater than or equal to** the required energy capacity.
+
+    **Example:** If your system requires **1.5 MWh**, you must purchase the **WAGO EMS - M** license.
+
 
 ## License Management
 
