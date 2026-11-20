@@ -89,14 +89,10 @@ Click the Version Information button, and the Version Information will be displa
 
 ![alt text](u6.png)
 
-![alt text](u7.png)
-
 
 ### 3.System Login
 
 The user avatar in the top bar provides access to account-related functions. Clicking the avatar will display detailed user information. Clicking the Logout button allows the user to securely log out of the system.
-
-![alt text](u8.png)
 
 
 
