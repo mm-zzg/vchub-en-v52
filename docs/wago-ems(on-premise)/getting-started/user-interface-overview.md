@@ -184,7 +184,7 @@ The range of data that users can see is controlled by configuration in the Proje
 
 ### 7.Project Settings
 
-The Project Settings page provides system-level configuration options for the WAGO EMS project. It allows authorized users to define basic project information, control time and regional settings, enable or disable load management, manage data retention, configure licensing, and verify connectivity to VcHub.
+The Project Settings page provides system-level configuration options for the WAGO EMS project. It allows authorized users to define basic project information, control time and regional settings, enable or disable load management, manage data retention, configure licensing, and verify connectivity to VC Hub.
 
 This page typically includes the following configuration areas:
 

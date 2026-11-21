@@ -30,39 +30,39 @@ Click Peak Load Management sidebar button, click Configuration Settings tab, use
 
 After 15 minutes, the setpoint automatically changes to the configured value.
 
+![alt text](c7.png)
 
-
-To edit a constraint, select its **Edit** button. You can update the setpoint, upper threshold, lower threshold, start time, end time, effective time period start time,  effective time period end time and status.
+User can modify constraint by clicking its **Edit** button. User can update the setpoint, upper threshold, lower threshold, start time, end time, effective time period start time,  effective time period end time and status.
 
 ![alt text](c8.png) 
 
 ![alt text](c11.png)
 
-The constraint information displayed on the page will update to reflect your changes.
+The constraint information displayed on the page will update to reflect modified changes.
 
 ![alt text](c12.png)
 
-User can click **edit** button, either disable its status or change its effective time will cancel the constraint
+User can disable constraint's status or change effective time to cancel the constraint.
 
 ![alt text](c9.png)
 
-If you change only the effective time and leave the constraint enabled, its text is displayed in black.
+If only change the effective time and enable the constraint, its text is displayed in black font.
 
 ![alt text](c13.png)
 
 ![alt text](c14.png)
 
-If you only disable the constraint, the highlighted green border disappears and the constraint is displayed in gray.
+If disable the constraint, the highlighted green border disappears and the constraint is displayed in gray font.
 
 ![alt text](c10.png)
 
-You can delete a constraint only after disabling it.
+User can delete a constraint only after disabling it.
 
 ![alt text](c15.png)
 
 ## Charging Restricted Constraint
 
-The Charging Restricted Constraint prevents the selected battery storage from charging.
+The Charging Restricted Constraint prevents the selected battery storage from charging at any time.
 
 Only controllable battery storage systems are available in the selection list. Uncontrollable systems cannot be selected.
 
