@@ -694,7 +694,7 @@ nav:
                             - wago-ems/core-functions/peak-load-management.md
                             - wago-ems/core-functions/surplus-management.md
                             - wago-ems/core-functions/microgrid-components.md
-                            - wago-ems/core-functions/constraints.md
+                            - wago-ems/core-functions/constraints-tasks.md
                   - Administration:
                             - wago-ems/administration/index.md
                             - wago-ems/administration/configuration.md

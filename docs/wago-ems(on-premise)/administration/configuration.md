@@ -3,32 +3,32 @@
 ## 1. Create a Client Id to use VC Hub as its identity provider to authenticate its end user.
 Click Security >> OIDC Server(Open API)
 ![alt text](2.png)
-For more details, users can refer to [OIDC Server](../../management-platform/security/open-api.md) for the VcHub interface configuration
+For more details, users can refer to [OIDC Server](../../management-platform/security/open-api.md) for the VC Hub interface configuration
 
 ## 2. Create a Client Id to use VC Hub Connections by making Open API requests from its backend.
 Click Security >> OIDC Server(Open API)
 ![alt text](3.png)
-For more details, users can refer to [OIDC Server](../../management-platform/security/open-api.md) for the VcHub interface configuration
+For more details, users can refer to [OIDC Server](../../management-platform/security/open-api.md) for the VC Hub interface configuration
 
 ## 3. Create a Role
 Click Security >> Role
 ![alt text](4.png)
-For more details, users can refer to [Create Roles](../../management-platform/security/roles-and-users.md) for the VcHub interface configuration
+For more details, users can refer to [Create Roles](../../management-platform/security/roles-and-users.md) for the VC Hub interface configuration
 
 ## 4. Create a user
 Click Security >> User
 ![alt text](5.png)
-For more details, users can refer to [Create Users](../../management-platform/security/roles-and-users.md) for the VcHub interface configuration
+For more details, users can refer to [Create Users](../../management-platform/security/roles-and-users.md) for the VC Hub interface configuration
 
 ## 5. Create a Project
 Click Projects >> Project
 ![alt text](6.png)
-For more details, users can refer to [Create Projects](../../management-platform/projects/index.md) for the VcHub interface configuration
+For more details, users can refer to [Create Projects](../../management-platform/projects/index.md) for the VC Hub interface configuration
 
 ## 6. Design different pages
 Click Projects >> Project >> Design >> New Page
 ![alt text](7.png)
-For more details, users can refer to [Create Pages](../../2d-visualization/page/index.md) for the VcHub interface configuration
+For more details, users can refer to [Create Pages](../../2d-visualization/page/index.md) for the VC Hub interface configuration
 
 ## WAGO EMS Side:
 ## 1. Configure page on WAGO EMS
