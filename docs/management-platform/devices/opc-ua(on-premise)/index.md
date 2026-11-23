@@ -104,7 +104,7 @@ Configure the OPC client connection:
 1. Follow the steps in the example above to create an OPC UA device and group. 
 2. Click Test Connection.
    ![alt text](18.png)
-3. Trust VCHub certificate in Codesys
+3. Trust VC Hub certificate in Codesys
    ![alt text](19.png)
 
 ## **Binding to Tags**

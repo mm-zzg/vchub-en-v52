@@ -48,7 +48,7 @@ This separation is important. WAGO EMS remains responsible for the energy manage
 
 WAGO EMS also embeds selected VC Hub runtime pages and UI components. This allows the microgrid application to reuse the flexible configuration capabilities of VC Hub for process visualization, dynamic dashboards, and operator interaction.
 
-By embedding VCHub runtime screens, WAGO EMS can combine:
+By embedding VC Hub runtime screens, WAGO EMS can combine:
 
 - microgrid energy management logic
 - reuse of proven VC Hub visualization components

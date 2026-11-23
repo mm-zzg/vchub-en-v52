@@ -37,7 +37,7 @@ Users can create the Energy Roles components by clicking 'Microgrid Components' 
 
 ![alt text](d11.png)
 
-Users can create the following components and configure the relevant information in VCHub, and then can see the real-time effect on the overview.
+Users can create the following components and configure the relevant information in VC Hub, and then can see the real-time effect on the overview.
 
 ![alt text](d15.png)
 
@@ -45,7 +45,7 @@ Users can create the following components and configure the relevant information
 
 ![alt text](d1.png)
 
-Refer to [Project Configuration](../../2d-visualization/index.md) for the VcHub interface configuration
+Refer to [Project Configuration](../../2d-visualization/index.md) for the VC Hub interface configuration
 
 #### 1.2 Definition of Metric
 
