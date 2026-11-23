@@ -120,7 +120,12 @@ Click Notification configuration > Contact points > Audit Log Pipeline Health bu
 
 ![alt text](n9.png)
 
-When unable Third-party audit log while WAGO EMS system is running, status of Audit Log Pipeline Health will turn to 'Firing' and be red
+When unable Third-party audit log while WAGO EMS system is running, status of Audit Log Pipeline Health will change from 'Normal' to 'Firing'.
 
+![alt text](n10.png)
 
+![alt text](n11.png)
 
+And user will receive alarm notifications by configruated email
+
+![alt text](n12.png)

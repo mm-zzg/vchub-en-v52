@@ -33,11 +33,11 @@ Each category contains specific component types that can be bound to real device
 | Consumer | Charging Infrastructure (WALM), Consumption Meter, Binary Controlled Consumer | Bind to internal consumption devices and monitor consumed electricity in real time. |
 | Bidirectional Entity | Battery Storage | Store surplus energy and discharge when energy is insufficient. |
 
-Users can create the Energy Roles components by clicking 'Microgrid Components' siderbar
+Users can create the Energy Roles components by clicking 'Microgrid Components' sidebar
 
 ![alt text](d11.png)
 
-Users can create the following components and configure the relevant information in VCHub, and then can see the real-time effect on the overview.
+Users can create the following components and configure the relevant information in VC Hub, and then can see the real-time effect on the overview.
 
 ![alt text](d15.png)
 
@@ -45,7 +45,7 @@ Users can create the following components and configure the relevant information
 
 ![alt text](d1.png)
 
-Refer to [Project Configuration](../../2d-visualization/index.md) for the VcHub interface configuration
+Refer to [Project Configuration](../../2d-visualization/index.md) for the VC Hub interface configuration
 
 #### 1.2 Definition of Metric
 
@@ -71,19 +71,31 @@ The System State reflects the overall operating condition of the WAGO EMS system
 
      | Condition | System State |
      | :--- | :--- |
-     | 15-Minute Grid Power Forecast > Setpoint | Critical |
+     | 15-Minute Grid Power Forecast > Setpoint | Critical Operation |
      | 15-Minute Grid Power Forecast < Setpoint | Normal Operation |
-     | System is under Reactivation| Limited |
+     | System is under Reactivation| Limited Operation|
+     | The value of the Grid is negative | System Protection Active|
 
      If System State is 'Normal Operation', Data Metric is displayed under 'System State'
 
      ![alt text](d4.png)
 
-     If System State is 'Critical Operation', system will trigger the regualtion stage set in PeakLoad Management, and the regulation stage list is displayed under 'System State'
+     If System State is 'Critical Operation', system will display the regualtion stages set in PeakLoad Management, and the regulation stage list will also be displayed under 'System State'
 
       ![alt text](d5.png)
 
-      If System State is 'Limited', system will display regulation list for 60 seconds 
+
+     If System State is 'Limited Operation', indicate system is under Reactivation, data Metric is still displayed under 'System State'.
+
+     ![alt text](d21.png)
+
+     If System State is 'System Protection Active', system will display the regualtion stages set in Surplus Management, and the regulation stage list, the value of 'Generation' and 'Consumption'.
+
+      ![alt text](d20.png)
+
+
+
+
 
 2. User-defined alarms.
 
